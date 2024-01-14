@@ -1,0 +1,81 @@
+station_name,metadata
+aberporth,Aberporth
+aberporth,"Location: 224100E 252100N, Lat 52.139 Lon -4.570, 133 metres amsl"
+armagh,Armagh
+armagh,"Location: 287800E 345800N (Irish Grid), Lat 54.352 Lon -6.649, 62 metres amsl"
+ballypatrick,Ballypatrick Forest
+ballypatrick,"Location 317600E 438600N (Irish Grid), Lat 55.181 Lon -6.153, 156m amsl"
+bradford,Bradford
+bradford,"Location 414900E 435200N, Lat 53.813 Lon -1.772, 134 metres amsl"
+braemar,Braemar
+braemar,"Location: 315200E 791400N, 339 metres amsl (1959 to Apr 2005),"
+braemar,"& 315200E 791900N, Lat 57.006 Lon -3.396, 327 metres amsl (Aug 2005 onwards)"
+camborne,Camborne
+camborne,"Location 162700E 40700N, Lat 50.218 Lon -5.327, 87m amsl"
+cambridge,Cambridge NIAB
+cambridge,"Location: 543500E 260600N, Lat 52.245 Lon 0.102, 26 metres amsl"
+cardiff,Cardiff Bute Park
+cardiff,"Location 317600E 177300N, Lat 51.488 Lon -3.187, 9 metres amsl"
+chivenor,Chivenor
+chivenor,"Location 249600E 134400N, Lat 51.089 Lon -4.147, 6m amsl"
+cwmystwyth,Cwmystwyth
+cwmystwyth,"Location: 277300E 274900N, Lat 52.358 Lon -3.802, 301 metres amsl"
+cwmystwyth,Site closed
+dunstaffnage,Dunstaffnage
+dunstaffnage,"Location 188100E 734000N, Lat 56.451 Lon -5.439, 3m amsl"
+durham,Durham
+durham,"Location: 426700E 541500N, Lat 54.768 Lon -1.585, 102 metres amsl"
+eastbourne,Eastbourne
+eastbourne,"Location: 561100E 98300N, Lat 50.762 Lon 0.285, 7 metres amsl"
+eskdalemuir,Eskdalemuir
+eskdalemuir,"Location 323400E 602600N, Lat 55.311 Lon -3.206, 242m amsl"
+heathrow,Heathrow (London Airport)
+heathrow,"Location 507800E 176700N, Lat 51.479 Lon -0.449, 25m amsl"
+hurn,Hurn
+hurn,"Location 411700E 97800N, Lat 50.779 Lon -1.835, 10 metres amsl"
+lerwick,Lerwick
+lerwick,"Location: 445300E 1139700N, Lat 60.139 Lon -1.183, 82 metres amsl"
+leuchars,Leuchars
+leuchars,"Location: 346800E 720900N, Lat 56.377 Lon -2.861, 10 metres amsl"
+lowestoft,Lowestoft / Lowestoft Monckton Ave from Sept 2007
+lowestoft,Location 654300E 294600N 25m amsl to July 2007
+lowestoft,"& from Sept 2007 653000E 293800N, Lat 52.483 Lon 1.727, 18m amsl"
+manston,Manston
+manston,"Location 632300E 166100N, Lat 51.346 Lon 1.337, 49m amsl"
+nairn,Nairn   there is a site change in 1998
+nairn,Location before 1998 286900E 856800N 8m amsl
+nairn,"after 1998 291200E 857300N, Lat 57.593 Lon -3.821, 23 m amsl"
+newtonrigg,Newton Rigg
+newtonrigg,"Location 349300E 530800N, Lat 54.670 Lon -2.786, 169 metres amsl"
+oxford,Oxford
+oxford,"Location: 450900E 207200N, Lat 51.761 Lon -1.262, 63 metres amsl"
+paisley,Paisley
+paisley,"Location 247800E 664200N, Lat 55.846 Lon -4.430, 32 metres amsl"
+ringway,Ringway
+ringway,"Location: 381400E 384400N, Lat 53.356 Lon -2.279, 69 metres amsl"
+rossonwye,Ross-On-Wye
+rossonwye,"Location: 359800E 223800N, Lat 51.911 Lon -2.584, 67 metres amsl"
+shawbury,Shawbury
+shawbury,"Location: 355200E 322100N, Lat 52.794 Lon -2.663, 72 metres amsl"
+sheffield,Sheffield
+sheffield,"Location 433900E 387200N, Lat 53.381 Lon -1.490, 131 metres amsl"
+southampton,Southampton
+southampton,"Location 442000E 112500N, 20 metres amsl (1855 to 1969)"
+southampton,"& 441600E 111200N, Lat 50.898 Lon -1.408, 3 metres amsl (1970 to 2000)"
+stornoway,Stornoway
+stornoway,"Location: 146400E 933200N, Lat 58.214 Lon -6.318, 15 metres amsl"
+suttonbonington,Sutton Bonington
+suttonbonington,"Location: 450700E 325900N, Lat 52.833 Lon -1.250, 48 metres amsl"
+tiree,Tiree
+tiree,"Location: 99800E 744800N, Lat 56.500 Lon -6.880, 12 metres amsl"
+valley,Valley
+valley,"Location: 230800E 375800N, Lat 53.252 Lon -4.535, 10 metres amsl"
+waddington,Waddington
+waddington,"Location 498800E 365300N, Lat 53.175 Lon -0.522, 68m amsl"
+whitby,Whitby Coastguard / Whitby(from 2000 and $sunshine)
+whitby,Location until Dec 1999 490400E 511400N 60m amsl
+whitby,"& from 2000 489100E 510400N, Lat 54.481 Lon -0.624 41m amsl"
+wickairport,Wick Airport
+wickairport,"Location  336500E 952200N, Lat 58.454 Lon -3.088, 36m amsl"
+yeovilton,Yeovilton
+yeovilton,"Location: 355100E 123200N, Lat 51.006 Lon -2.641, 20 metres amsl"

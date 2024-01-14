@@ -1,0 +1,12 @@
+bandit
+fastavro
+flake8-docstrings
+flake8-quotes
+isort
+pytest-bdd
+pytest-cov
+python-snappy
+radon
+redmx
+smart_open
+yamllint
