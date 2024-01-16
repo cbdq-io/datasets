@@ -2,7 +2,7 @@
 import json
 import os
 
-from extract import ExtractMapper
+from hsd import ExtractMapper
 from pytest_bdd import given, parsers, scenario, then, when
 
 bdd_features_base_dir = f'{os.path.dirname(os.path.realpath(__file__))}/../features'

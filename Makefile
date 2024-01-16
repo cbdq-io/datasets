@@ -1,6 +1,7 @@
-all: install lint ukmo-hso
+all: install lint ukmohsd
 
 clean:
+	find . -type d -name __pycache__ -exec rm -rf {} \;
 	docker system prune --all --force
 	docker volume prune --all --force
 
@@ -15,5 +16,5 @@ lint:
 	flake8
 	bandit -qr .
 
-ukmo-hso:
-	PYTHONPATH=./uk/gov/metoffice/historic-station-data/src pytest
+ukmohsd:
+	PYTHONPATH=./uk/gov/metoffice/historic-station-data/scripts pytest

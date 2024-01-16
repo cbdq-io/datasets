@@ -18,6 +18,8 @@ class ExtractMapper:
     ----------
     station_name : str
         The name of the station that the data is relevant to (e.g. camborne).
+    line : str
+        The original line extracted from the input file.
     metadata : str
         If the line was metadata, it will be set here.  Otherwise the value
         will be None.
@@ -252,6 +254,7 @@ class ExtractMapper:
         """
         return {
             'station_name': self.station_name,
+            'line': self.line,
             'metadata': self.metadata,
             'month': self.month,
             'tmax': self.tmax,

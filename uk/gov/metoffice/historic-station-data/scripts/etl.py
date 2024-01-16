@@ -11,8 +11,8 @@ from pathlib import Path
 
 import pandas as pd
 import smart_open
-from extract import ExtractMapper
 from flytekit import task, workflow
+from hsd import ExtractMapper
 from redmx import RateErrorDuration
 
 STATION_ID_LIST = [
@@ -101,9 +101,21 @@ def extract() -> pd.DataFrame:
 def load(data: pd.DataFrame) -> None:
     """Load the data."""
     base_path = f'{os.path.dirname(os.path.realpath(__file__))}'
+
+    archive_directory = f'{base_path}/../archive'
+    Path(archive_directory).mkdir(parents=True, exist_ok=True)
+
+    for station_name in sorted(data['station_name'].unique()):
+        archive_file = f'{archive_directory}/{station_name}data.txt'
+        logger.debug(f'Dumping {station_name} data to archive ({archive_file}).')
+        archive = data[data['station_name'] == station_name][['line']]
+
+        with open(archive_file, 'wt') as stream:
+            stream.write(''.join(archive['line']))
+
     metadata = data[data['month'].isnull()] \
         .drop_duplicates(subset=['metadata'], keep=False)[['station_name', 'metadata']]
-    data = data[data['metadata'].isnull()].drop('metadata', axis=1)
+    data = data[data['metadata'].isnull()].drop(['line', 'metadata'], axis=1)
     data_directory = f'{base_path}/../data'
     Path(data_directory).mkdir(parents=True, exist_ok=True)
     metadata.to_csv(f'{data_directory}/station-metadata.csv', index=False)
@@ -111,7 +123,7 @@ def load(data: pd.DataFrame) -> None:
 
 
 @workflow
-def extract_load() -> None:
+def workflow() -> None:
     """Work flow to extract and load."""
     data = extract()
     load(data=data)
