@@ -1,0 +1,4 @@
+@namespace("io.cbdq:")
+protocol IO_CBDQ {
+    import idl "historical_station_data/historical_station_data.avdl";
+}
