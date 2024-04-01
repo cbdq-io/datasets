@@ -1,4 +1,4 @@
-# Met Offoce Historical Station Data
+# Met Office Historical Station Data
 
 A dataset wrangled from the UK Met Office and available at
 <https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data>.
@@ -10,7 +10,7 @@ A dataset wrangled from the UK Met Office and available at
 1. month:  The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) month (e.g. 2024-04).  Will be blank if the row is a data record.
 1. tmax: Mean daily maximum temperature (centigrade).  Will be blank if month is blank or no data is available.
 1. tmax_is_estimated: True if tmax is estimated, false if is estimated, blank if tmax or month is absent.
-1. tmin
+1. tmin: Mean daily minimum temperature (centigrade).  Will be blank if month is blank or no data is available.
 1. tmin_is_estimated: True if tmin is estimated, false if is not estimated, blank if tmin or month is absent.
 1. af: Days of air frost.  Will be blank if month is blank for no data is available.
 1. af_is_estimated: True if af is estimated, false if is not estimated, blank if af or main is absent.
