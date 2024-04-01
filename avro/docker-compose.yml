@@ -1,0 +1,13 @@
+---
+version: "3"
+
+services:
+  idl2schemata:
+    command:
+      - idl2schemata
+      - /mnt/idl/io.cbdq.avdl
+      - /mnt/avsc
+    image: ghcr.io/cbdq-io/avro-tools:1.11.1
+    volumes:
+      - "./avsc:/mnt/avsc"
+      - "./idl:/mnt/idl"
