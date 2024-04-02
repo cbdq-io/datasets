@@ -116,6 +116,93 @@ class Extractor:
         return f'https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/{station_name}data.txt'
 
 
+class SunInstrument:
+    """
+    A class to parse and persist the sun instrument for a station.
+
+    When the sun instrument has no reading or is estimated, on a row by row
+    basis, it is impossible to know the sun instrument type.  This class
+    persists the last known sun instrument allowing us to infer the
+    instrument type when data is missing/estimated.
+    """
+
+    def __init__(self) -> None:
+        self._sun_instrument_type = None
+        self._station_name = None
+
+    def parse_sun_instrument_token(self, station_name: str, field: str) -> str:
+        """
+        Parse the sun instrument token/field.
+
+        Parameters
+        ----------
+        station_name : str
+            The name of the station we are processing a row for.
+        field : str
+            The raw field (cleaned) containing the sun reading.
+
+        Returns
+        -------
+        str
+            None if the sun instrument is unknown, if it is known, then the
+            value will either be "Campbell Stokes recorder" or
+            "Kipp & Zonen sensor".
+        """
+        if station_name != self.station_name():
+            self.reset_sun_instrument_type()
+            self.station_name(station_name)
+
+        if field == '---' or field.endswith('*'):
+            return self.sun_instrument_type()
+
+        if field.endswith('#'):
+            return self.sun_instrument_type('Kipp & Zonen sensor')
+
+        return self.sun_instrument_type('Campbell Stokes recorder')
+
+    def reset_sun_instrument_type(self) -> None:
+        """Reset the instrument type."""
+        self._sun_instrument_type = None
+
+    def station_name(self, station_name: str = None) -> str:
+        """
+        Get/set the station name.
+
+        Parameters
+        ----------
+        station_name : str, optional
+            The station name, by default None
+
+        Returns
+        -------
+        str
+            The station name.
+        """
+        if station_name is not None:
+            self._station_name = station_name
+
+        return self._station_name
+
+    def sun_instrument_type(self, sun_instrument_type: str = None) -> str:
+        """
+        Get/set the sun instrument type.
+
+        Parameters
+        ----------
+        sun_instrument_type : str, optional
+            The type of sun instrument.
+
+        Returns
+        -------
+        str
+            The type of sun instrument.
+        """
+        if sun_instrument_type is not None:
+            self._sun_instrument_type = sun_instrument_type
+
+        return self._sun_instrument_type
+
+
 class Transformer:
     """
     Transform the data extracted from the Met Office.
@@ -127,6 +214,7 @@ class Transformer:
     """
 
     def __init__(self, df: pd.DataFrame) -> None:
+        self._sun_instrument = SunInstrument()
         df['metadata'] = df.apply(self.get_metadata, axis=1)
         df['month'] = df.apply(self.get_month, axis=1)
         df['tmax'] = df.apply(self.get_token_numeric_value, token_index=2, axis=1)
@@ -305,18 +393,11 @@ class Transformer:
         input_line = row['input_line']
 
         if not self.is_data_record(input_line):
-            response = None
-        else:
-            field = str(self.get_input_line_tokens(input_line)[6])
+            return None
 
-            if field == '---' or field.endswith('*'):
-                response = None
-            elif field.endswith('#'):
-                response = 'Kipp & Zonen sensor'
-            else:
-                response = 'Campbell Stokes recorder'
-
-        return response
+        station_name = row['station_name']
+        field = str(self.get_input_line_tokens(input_line)[6])
+        return self._sun_instrument.parse_sun_instrument_token(station_name, field)
 
     def get_token_numeric_value(self, row: pd.Series, token_index: int) -> object:
         """
