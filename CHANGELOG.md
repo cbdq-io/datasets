@@ -11,6 +11,10 @@
 
 * Add Avro and tests. [Ben Dalling]
 
+### Fix
+
+* Update Python packages to avoid CVE-2024-3651. [Ben Dalling]
+
 
 ## 0.1.0 (2024-04-01)
 
