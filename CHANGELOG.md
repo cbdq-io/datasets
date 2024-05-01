@@ -1,7 +1,18 @@
 # Changelog
 
 
-## 0.2.0
+## 0.2.1
+
+### Changes
+
+* Fill in missing sun instrument data. [Ben Dalling]
+
+### Fix
+
+* Correct changelog. [Ben Dalling]
+
+
+## 0.2.0 (2024-05-01)
 
 ### New
 
