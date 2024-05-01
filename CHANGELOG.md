@@ -1,7 +1,18 @@
 # Changelog
 
 
-## 0.1.0
+## 0.2.0
+
+### New
+
+* Met Office data for 2024-04. [Ben Dalling]
+
+* Update for data 2024-03. [Ben Dalling]
+
+* Add Avro and tests. [Ben Dalling]
+
+
+## 0.1.0 (2024-04-01)
 
 ### New
 
