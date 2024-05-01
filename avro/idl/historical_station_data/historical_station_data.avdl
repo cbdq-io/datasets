@@ -1,0 +1,164 @@
+@namespace("io.cbdq.historical_station_data")
+protocol HistoricalStationData {
+    enum StationName {
+        aberporth,
+        armagh,
+        ballypatrick,
+        bradford,
+        braemar,
+        camborne,
+        cambridge,
+        cardiff,
+        chivenor,
+        cwmystwyth,
+        dunstaffnage,
+        durham,
+        eastbourne,
+        eskdalemuir,
+        heathrow,
+        hurn,
+        lerwick,
+        leuchars,
+        lowestoft,
+        manston,
+        nairn,
+        newtonrigg,
+        oxford,
+        paisley,
+        ringway,
+        rossonwye,
+        shawbury,
+        sheffield,
+        southampton,
+        stornoway,
+        suttonbonington,
+        tiree,
+        valley,
+        waddington,
+        whitby,
+        wickairport,
+        yeovilton
+    }
+
+    /**
+     * Met Office Historical Station Data
+     *
+     * A dataset wrangled from the UK Met Office and available at
+     * <https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data>.
+     *
+     * There are three types of rows:
+     *
+     *   - The first row is a header row.
+     *   - Data rows can be recognised by the metadata column being empty and the month column not being empty.
+     *   - Metadata rows can be recognised by the metadata column being populated and the month column being empty.
+     */
+    record HistoricalStationData {
+        /**
+         * The name of the station that the data in the row refers to.
+         */
+        StationName station_name;
+
+        /**
+         * A free text string extracted from the source data that describes the station.  Will be blank if on a data row.
+         */
+         string metadata;
+
+         /**
+          * The ISO 8601 month (e.g. 2024-04). Will be blank if the row is a metadata row.
+          */
+          string month;
+
+        /**
+         * Mean daily maximum temperature (centigrade). Will be a blank string if on a metadata row or tmax is not available in the data row.
+         */
+         union {
+            float,
+            string
+         } tmax;
+
+         /**
+           * True if tmax is estimated, false if is estimated, blank if tmax or month is absent.
+           */
+        union {
+            boolean,
+            string
+        } tmax_is_estimated;
+
+        /**
+          * Mean daily minimum temperature (centigrade). Will be blank if month is blank or no data is available.
+          */
+        union {
+            float,
+            string
+        } tmin;
+
+        /**
+          * True if tmin is estimated, false if is not estimated, blank if tmin or month is absent.
+          */
+        union {
+            boolean,
+            string
+        } tmin_is_estimated;
+
+        /**
+          * Days of air frost. Will be blank if month is blank for no data is available.
+          */
+        union {
+            int,
+            string
+        } af;
+
+        /**
+          * True if af is estimated, false if is not estimated, blank if af or main is absent.
+          */
+        union {
+            boolean,
+            string
+        } af_is_estimated;
+
+        /**
+          * Rainfall (mm). Will be blank if month is blank or no rain data is available.
+          */
+        union {
+            float,
+            string
+        } rain;
+
+        /**
+          * True if rain is estimated, false if is not estimated, blank if rain or main is absent.
+          */
+        union {
+            boolean,
+            string
+        } rain_is_estimated;
+
+        /**
+          * The number of hours of sunshine. Will be blank if month is blank or no sun data is available.
+          */
+        union {
+            float,
+            string
+        } sun;
+
+        /**
+          * True if sun is estimated, false if is not estimated, blank if sun or main is absent.
+          */
+        union {
+            boolean,
+            string
+        } sun_is_estimated;
+
+        /**
+          * The sun instrument (blank if unavailable). Will either be Campbell-Stokes recorder or Campbell-Stokes recorder.
+          */
+        string sun_instrument;
+
+        /**
+          * Data are indicated as provisional until the full network quality control has been carried out. After this, data are final.
+          */
+        union {
+            boolean,
+            string
+        } provisional;
+    }
+}
