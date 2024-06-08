@@ -13,6 +13,7 @@ copy of the GNU General Public License along with this program. If not,
 see <http://www.gnu.org/licenses/>.
 """
 import argparse
+import datetime
 import itertools
 import json
 import logging
@@ -541,6 +542,8 @@ class Loader:
             data_package = json.load(stream)
 
         data_package['version'] = os.environ['GIT_TAG']
+        now = datetime.datetime.now(datetime.UTC)
+        data_package['created'] = now.isoformat(timespec='seconds')
 
         with open(data_package_file_name, 'w') as stream:
             json.dump(data_package, stream, indent=4, sort_keys=True)
