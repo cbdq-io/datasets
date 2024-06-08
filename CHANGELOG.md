@@ -5,6 +5,10 @@
 
 ### New
 
+* Add the created timestamp to the datapackage.json file. [Ben Dalling]
+
+* Add the version to the datapackage.json file. [Ben Dalling]
+
 * Add the GPL-3.0 licence. [Ben Dalling]
 
 ### Fix
