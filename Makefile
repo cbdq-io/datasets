@@ -2,10 +2,12 @@
 
 GIT_TAG = 1.0.0
 
-all: lint build test
+all: lint avro build test
+
+avro:
+	make -C avro
 
 build:
-	make -C avro
 	./uk/gov/metoffice/historic_station_data/scripts/etl.py
 
 changelog:
