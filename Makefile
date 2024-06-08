@@ -1,6 +1,6 @@
 .EXPORT_ALL_VARIABLES:
 
-GIT_TAG = 0.2.2
+GIT_TAG = 1.0.0
 
 all: lint build test
 

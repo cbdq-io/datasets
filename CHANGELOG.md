@@ -1,7 +1,14 @@
 # Changelog
 
 
-## 0.2.2
+## 1.0.0
+
+### New
+
+* Describe the Met Office Historic Station metadata in datapackage.json. [Ben Dalling]
+
+
+## 0.2.2 (2024-06-08)
 
 ### Changes
 
