@@ -11,7 +11,7 @@ The wrangling consists of:
 The original data is licenced under the
 [Open Government Licence 3.0 (United Kingdom)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 and in this wrangled form is covered by the
-[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+[GNU General Public License 3.0](https://opensource.org/licenses/GPL-3.0)
 licence.
 
 For details on the fields, see the `datapackage.json` file which follows the

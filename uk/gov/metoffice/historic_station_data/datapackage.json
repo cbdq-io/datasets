@@ -10,9 +10,9 @@
             "title": "Open Government Licence 3.0 (United Kingdom)"
         },
         {
-            "name": "CC-BY-4.0",
-            "path": "https://creativecommons.org/licenses/by/4.0/",
-            "title": "Creative Commons Attribution 4.0"
+            "name": "GPL-3.0",
+            "path": "https://opensource.org/licenses/GPL-3.0",
+            "title": "GNU General Public License 3.0"
         }
     ],
     "homepage": "https://github.com/cbdq-io/datasets/tree/main/uk/gov/metoffice/historic_station_data",
