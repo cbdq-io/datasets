@@ -3,6 +3,13 @@
 
 ## 0.2.1
 
+### Other
+
+* --- updated-dependencies: - dependency-name: requests   dependency-type: direct:production ... [dependabot[bot]]
+
+
+## 0.2.1 (2024-05-01)
+
 ### Changes
 
 * Fill in missing sun instrument data. [Ben Dalling]
