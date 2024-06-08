@@ -1,0 +1,186 @@
+{
+    "name": "io.cbdq.metoffice.historic_station_data",
+    "title": "Met Office Historical Station Data",
+    "description": "# Met Office Historical Station Data\n\nA dataset wrangled from the UK Met Office and available at\n<https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data>.\n\nThe wrangling consists of:\n\n- Cleaning some data errors.\n- Setting the sun instrument type to the last known instrument for a station.",
+    "profile": "tabular-data-package",
+    "licenses": [
+        {
+            "name": "OGL-UK-3.0",
+            "path": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "title": "Open Government Licence 3.0 (United Kingdom)"
+        },
+        {
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0"
+        }
+    ],
+    "homepage": "https://github.com/cbdq-io/datasets/tree/main/uk/gov/metoffice/historic_station_data",
+    "sources": [
+        {
+            "title": "Met Office Historical Station Data",
+            "path": "https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data"
+        }
+    ],
+    "contributers": [
+        {
+            "title": "Cloud Based DQ Ltd.",
+            "path": "https://www.cbdq.io",
+            "role": "wrangler"
+        }
+    ],
+    "keywords": [
+        "climate",
+        "MetOffice",
+        "change",
+        "historic"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Met_Office.svg/150px-Met_Office.svg.png",
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "historic_station_data",
+            "path": "data/historic-station-data.csv",
+            "schema": {
+                "missingValues": [""],
+                "fields": [
+                   {
+                        "name": "station_name",
+                        "type": "string",
+                        "description": "The name of the station that the data refers to.",
+                        "constraints": {
+                            "enum": [
+                                "aberporth",
+                                "armagh",
+                                "ballypatrick",
+                                "bradford",
+                                "braemar",
+                                "camborne",
+                                "cambridge",
+                                "cardiff",
+                                "chivenor",
+                                "cwmystwyth",
+                                "dunstaffnage",
+                                "durham",
+                                "eastbourne",
+                                "eskdalemuir",
+                                "heathrow",
+                                "hurn",
+                                "lerwick",
+                                "leuchars",
+                                "lowestoft",
+                                "manston",
+                                "nairn",
+                                "newtonrigg",
+                                "oxford",
+                                "paisley",
+                                "ringway",
+                                "rossonwye",
+                                "shawbury",
+                                "sheffield",
+                                "southampton",
+                                "stornoway",
+                                "suttonbonington",
+                                "tiree",
+                                "valley",
+                                "waddington",
+                                "whitby",
+                                "wickairport",
+                                "yeovilton"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "metadata",
+                        "type": "string",
+                        "description": "Free text associated with the station. Will be missing if the row is for a data record."
+                    },
+                    {
+                        "name": "month",
+                        "type": "yearmonth",
+                        "description": "The ISO 8601 month. Will be missing if the row is a metadata record.",
+                        "example": "2024-04"
+                    },
+                    {
+                        "name": "tmax",
+                        "type": "number",
+                        "description": "Mean daily maximum temperature (centigrade)."
+                    },
+                    {
+                        "name": "tmax_is_estimated",
+                        "type": "boolean",
+                        "trueValues": ["True"],
+                        "falseValues": ["False"],
+                        "description": "True if tmax is estimated."
+                    },
+                    {
+                        "name": "tmin",
+                        "type": "number",
+                        "description": "Mean daily minimum temperature (centigrade)."
+                    },
+                    {
+                        "name": "tmin_is_estimated",
+                        "type": "boolean",
+                        "trueValues": ["True"],
+                        "falseValues": ["False"],
+                        "description": "True if tmin is estimated."
+                    },
+                    {
+                        "name": "af",
+                        "type": "integer",
+                        "description": "Days of air frost."
+                    },
+                    {
+                        "name": "af_is_estimated",
+                        "type": "boolean",
+                        "trueValues": ["True"],
+                        "falseValues": ["False"],
+                        "description":"True if af is estimated."
+                    },
+                    {
+                        "name": "rain",
+                        "type": "number",
+                        "description": "Total rainfall (mm)."
+                    },
+                    {
+                        "name": "rain_is_estimated",
+                        "type": "boolean",
+                        "trueValues": ["True"],
+                        "falseValues": ["False"],
+                        "description": "True if rain is estimated."
+                    },
+                    {
+                        "name": "sun",
+                        "type": "number",
+                        "description": "Total sunshine duration."
+                    },
+                    {
+                        "name": "sun_is_estimated",
+                        "type": "boolean",
+                        "trueValues": ["True"],
+                        "falseValues": ["False"],
+                        "description": "True if sun is estimated."
+                    },
+                    {
+                        "name": "sun_instrument",
+                        "type": "string",
+                        "description": "The sun instrument installed at the station.",
+                        "constraints": {
+                            "enum": [
+                                "Campbell Stokes recorder",
+                                "Kipp & Zonen sensor"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "provisional",
+                        "type": "boolean",
+                        "trueValues": ["True"],
+                        "falseValues": ["False"],
+                        "description": "Data are indicated as provisional until the full network quality control has been carried out. After this, data are final."
+                    }
+                ]
+            }
+        }
+    ]
+}
