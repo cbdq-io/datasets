@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.0.0
+
+### Fix
+
+* Remove BSD-3-Cluase licence. [Ben Dalling]
+
+
 ## 1.0.0 (2024-06-08)
 
 ### New
