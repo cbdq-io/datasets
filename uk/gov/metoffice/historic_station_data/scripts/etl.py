@@ -14,6 +14,7 @@ see <http://www.gnu.org/licenses/>.
 """
 import argparse
 import itertools
+import json
 import logging
 import os
 import re
@@ -499,6 +500,7 @@ class Loader:
         self.df = df
         self.load_archives()
         self.load_data()
+        self.load_package_data()
 
     def load_archive(self, station_name: str) -> None:
         """
@@ -530,6 +532,18 @@ class Loader:
         self.df = self.df.drop(self.df[self.df['metadata_duplicated']].index).drop('metadata_duplicated', axis=1)
         logger.info(f'Loading transformed data to "{data_filename}".')
         self.df.to_csv(data_filename, index=False)
+
+    def load_package_data(self) -> None:
+        """Update tha datapackage.json file."""
+        data_package_file_name = f'{BASE_DIRECTORY}/datapackage.json'
+
+        with open(data_package_file_name) as stream:
+            data_package = json.load(stream)
+
+        data_package['version'] = os.environ['GIT_TAG']
+
+        with open(data_package_file_name, 'w') as stream:
+            json.dump(data_package, stream, indent=4, sort_keys=True)
 
     def qualify_metadata_duplication(self, row: pd.Series) -> bool:
         """
