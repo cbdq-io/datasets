@@ -28,7 +28,7 @@ jobs:
         run: make lint
 
       - name: Build
-        run: ./uk/gov/metoffice/historic_station_data/scripts/etl.py
+        run: make build
 
       - name: Test
         run: make test
