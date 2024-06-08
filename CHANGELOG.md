@@ -3,6 +3,10 @@
 
 ## 1.0.0
 
+### New
+
+* Add the GPL-3.0 licence. [Ben Dalling]
+
 ### Fix
 
 * Remove BSD-3-Cluase licence. [Ben Dalling]
