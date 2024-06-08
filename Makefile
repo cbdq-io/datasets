@@ -16,5 +16,8 @@ lint:
 	flake8
 	bandit -qr .
 
+tag:
+	@echo $(GIT_TAG)
+
 test:
 	PYTHONPATH=. pytest
