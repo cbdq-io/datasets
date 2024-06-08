@@ -1,7 +1,11 @@
 # Changelog
 
 
-## 0.2.1
+## 0.2.2
+
+### Changes
+
+* Update data for 2024-05. [Ben Dalling]
 
 ### Other
 
