@@ -1,6 +1,6 @@
 .EXPORT_ALL_VARIABLES:
 
-GIT_TAG = 0.2.1
+GIT_TAG = 0.2.2
 
 all: lint build test
 
@@ -15,6 +15,9 @@ lint:
 	isort -v .
 	flake8
 	bandit -qr .
+
+tag:
+	@echo $(GIT_TAG)
 
 test:
 	PYTHONPATH=. pytest

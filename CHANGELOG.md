@@ -1,7 +1,18 @@
 # Changelog
 
 
-## 0.2.1
+## 0.2.2
+
+### Changes
+
+* Update data for 2024-05. [Ben Dalling]
+
+### Other
+
+* --- updated-dependencies: - dependency-name: requests   dependency-type: direct:production ... [dependabot[bot]]
+
+
+## 0.2.1 (2024-05-01)
 
 ### Changes
 
