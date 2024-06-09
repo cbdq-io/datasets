@@ -9,6 +9,7 @@ avro:
 
 build:
 	./uk/gov/metoffice/historic_station_data/scripts/etl.py
+	./gx.py -v
 
 changelog:
 	GIT_TAG=$(GIT_TAG) gitchangelog > CHANGELOG.md
