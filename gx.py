@@ -15,58 +15,15 @@ see <http://www.gnu.org/licenses/>.
 import argparse
 import csv
 import logging
-import os
 from pathlib import Path
 
 import great_expectations as gx
 import pandas as pd
-from great_expectations.render.renderer import (ExpectationSuitePageRenderer,
-                                                ValidationResultsPageRenderer)
-from great_expectations.render.view import DefaultMarkdownPageView
 
 HISTORIC_STATION_DATA_PATH = 'uk/gov/metoffice/historic_station_data/data/historic-station-data.csv'
 PROG = Path(__file__).stem
 logging.basicConfig()
 logger = logging.getLogger(PROG)
-
-
-def generate_markdown_reports(context: gx.data_context.data_context.file_data_context.FileDataContext,
-                              checkpoint_result: gx.checkpoint.types.checkpoint_result.CheckpointResult,
-                              output_dir: str) -> None:
-    """
-    Generate Markdown reports from the expectation suites and validation results.
-
-    Parameters
-    ----------
-    context : great_expectations.data_context.data_context.file_data_context.FileDataContext
-        The data context.
-    checkpoint_result : great_expectations.checkpoint.types.checkpoint_result.CheckpointResult
-        The result of the checkpoint just executed.
-    output_dir : str
-        The path to the directory to write the reports to.
-    """
-    # Generate markdown for all expectation suites
-    for suite_name in context.list_expectation_suite_names():
-        suite = context.get_expectation_suite(suite_name)
-        suite_renderer = ExpectationSuitePageRenderer().render(suite)
-        suite_md = DefaultMarkdownPageView().render(suite_renderer)
-        suite_md_path = os.path.join(output_dir, f'{suite_name}_expectations.md')
-
-        with open(suite_md_path, 'w') as stream:
-            stream.write(suite_md)
-
-    # Generate markdown for all validation results
-    for validation_result_identifier in checkpoint_result.list_validation_result_identifiers():
-        run_id = validation_result_identifier.run_id
-        validation_result = context.get_validation_result(suite_name, run_id)
-        validation_renderer = ValidationResultsPageRenderer().render(validation_result)
-        validation_md = DefaultMarkdownPageView().render(validation_renderer)
-        file_name = f'{run_id.run_name}_{suite_name}_validation.md'
-        validation_md_path = os.path.join(output_dir, file_name)
-        logger.info(f'Writing validation to "{validation_md_path}".')
-
-        with open(validation_md_path, 'w') as stream:
-            stream.write(validation_md)
 
 
 class Extractor:
@@ -171,5 +128,3 @@ if __name__ == '__main__':
         ]
     )
     check_point_result = checkpoint.run(run_name=latest_month)
-    output_dir = 'docs/markdown_reports'
-    generate_markdown_reports(context, check_point_result, output_dir)
