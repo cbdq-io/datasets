@@ -13,6 +13,10 @@
 
 * Add the GPL-3.0 licence. [Ben Dalling]
 
+### Changes
+
+* Migrate from Markdown to HTML for the DQ report. [Ben Dalling]
+
 ### Fix
 
 * Remove BSD-3-Cluase licence. [Ben Dalling]
