@@ -1,4 +1,4 @@
-name: ALL-2024-05
+name: metoffice-historical-station-data-2024-05
 config_version: 1.0
 template_name:
 module_name: great_expectations.checkpoint
@@ -21,7 +21,7 @@ runtime_configuration: {}
 validations:
   - batch_request:
       datasource_name: metoffice_historical_station_data
-      data_asset_name: ALL
+      data_asset_name: metoffice-historical-station-data
       options: {}
       batch_slice:
     expectation_suite_name: metoffice_historical_station_data
