@@ -100,7 +100,7 @@ fluent_datasources:
   metoffice_historical_station_data:
     type: pandas
     assets:
-      ALL:
+      metoffice-historical-station-data:
         type: dataframe
         batch_metadata: {}
 notebooks:

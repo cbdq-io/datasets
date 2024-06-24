@@ -115,8 +115,8 @@ if __name__ == '__main__':
     context = gx.get_context()
     suite = context.get_expectation_suite(expectation_suite_name='metoffice_historical_station_data')
     datasource = context.sources.add_or_update_pandas('metoffice_historical_station_data')
-    asset_name = 'ALL'
-    asset = datasource.add_dataframe_asset('ALL', all_data)
+    asset_name = 'metoffice-historical-station-data'
+    asset = datasource.add_dataframe_asset(asset_name, all_data)
     batch_request = asset.build_batch_request()
     checkpoint = context.add_or_update_checkpoint(
         name=f'{asset_name}-{latest_month}',
