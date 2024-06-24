@@ -19,6 +19,8 @@
 
 ### Fix
 
+* Give GX Metoffice checkpoint a more meaningful name. [Ben Dalling]
+
 * Remove BSD-3-Cluase licence. [Ben Dalling]
 
 ### Other
