@@ -1,7 +1,47 @@
 # Changelog
 
 
-## 1.0.0
+## 1.1.0
+
+### New
+
+* Add Great Expectations validation. [Ben Dalling]
+
+* Add the created timestamp to the datapackage.json file. [Ben Dalling]
+
+* Add the version to the datapackage.json file. [Ben Dalling]
+
+* Add the GPL-3.0 licence. [Ben Dalling]
+
+### Changes
+
+* Updates to include data for 2024-06. [Ben Dalling]
+
+* Migrate from Markdown to HTML for the DQ report. [Ben Dalling]
+
+### Fix
+
+* Give GX Metoffice checkpoint a more meaningful name. [Ben Dalling]
+
+* Remove BSD-3-Cluase licence. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump urllib3 from 2.2.1 to 2.2.2. [dependabot[bot]]
+
+  Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.2.1 to 2.2.2.
+  - [Release notes](https://github.com/urllib3/urllib3/releases)
+  - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+  - [Commits](https://github.com/urllib3/urllib3/compare/2.2.1...2.2.2)
+
+  ---
+  updated-dependencies:
+  - dependency-name: urllib3
+    dependency-type: direct:production
+  ...
+
+
+## 1.0.0 (2024-06-08)
 
 ### New
 

@@ -1,12 +1,15 @@
 .EXPORT_ALL_VARIABLES:
 
-GIT_TAG = 1.0.0
+GIT_TAG = 1.1.0
 
-all: lint build test
+all: lint avro build test
+
+avro:
+	make -C avro
 
 build:
-	make -C avro
 	./uk/gov/metoffice/historic_station_data/scripts/etl.py
+	./gx.py -v
 
 changelog:
 	GIT_TAG=$(GIT_TAG) gitchangelog > CHANGELOG.md

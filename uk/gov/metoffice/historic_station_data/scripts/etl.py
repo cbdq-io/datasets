@@ -1,7 +1,21 @@
 #!/usr/bin/env python
-"""A module/script for an etl process on the UK Met Office Historical Station Data."""
+"""
+A script for an etl process on the UK Met Office Historical Station Data.
+
+Copyright (C) 2024 Cloud Based DQ Ltd. This program is free software: you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version. This program is distributed in
+the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
+the GNU General Public License for more details. You should have received a
+copy of the GNU General Public License along with this program. If not,
+see <http://www.gnu.org/licenses/>.
+"""
 import argparse
+import datetime
 import itertools
+import json
 import logging
 import os
 import re
@@ -487,6 +501,7 @@ class Loader:
         self.df = df
         self.load_archives()
         self.load_data()
+        self.load_package_data()
 
     def load_archive(self, station_name: str) -> None:
         """
@@ -518,6 +533,20 @@ class Loader:
         self.df = self.df.drop(self.df[self.df['metadata_duplicated']].index).drop('metadata_duplicated', axis=1)
         logger.info(f'Loading transformed data to "{data_filename}".')
         self.df.to_csv(data_filename, index=False)
+
+    def load_package_data(self) -> None:
+        """Update tha datapackage.json file."""
+        data_package_file_name = f'{BASE_DIRECTORY}/datapackage.json'
+
+        with open(data_package_file_name) as stream:
+            data_package = json.load(stream)
+
+        data_package['version'] = os.environ['GIT_TAG']
+        now = datetime.datetime.now(datetime.UTC)
+        data_package['created'] = now.isoformat(timespec='seconds')
+
+        with open(data_package_file_name, 'w') as stream:
+            json.dump(data_package, stream, indent=4, sort_keys=True)
 
     def qualify_metadata_duplication(self, row: pd.Series) -> bool:
         """
