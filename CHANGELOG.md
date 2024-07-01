@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 1.0.0
+## 1.1.0
 
 ### New
 
@@ -14,6 +14,8 @@
 * Add the GPL-3.0 licence. [Ben Dalling]
 
 ### Changes
+
+* Updates to include data for 2024-06. [Ben Dalling]
 
 * Migrate from Markdown to HTML for the DQ report. [Ben Dalling]
 
