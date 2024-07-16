@@ -23,4 +23,4 @@ tag:
 	@echo $(GIT_TAG)
 
 test:
-	PYTHONPATH=. pytest
+	PYTHONPATH=.:workflows pytest
