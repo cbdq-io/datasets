@@ -9,6 +9,19 @@
 
 * UK HMRC GBP exchange rate data. [Ben Dalling]
 
+### Other
+
+* Build(deps): bump certifi from 2024.6.2 to 2024.7.4. [dependabot[bot]]
+
+  Bumps [certifi](https://github.com/certifi/python-certifi) from 2024.6.2 to 2024.7.4.
+  - [Commits](https://github.com/certifi/python-certifi/compare/2024.06.02...2024.07.04)
+
+  ---
+  updated-dependencies:
+  - dependency-name: certifi
+    dependency-type: direct:production
+  ...
+
 
 ## 1.1.0 (2024-07-01)
 
