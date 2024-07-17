@@ -9,3 +9,4 @@ Feature: Test Data Package Files Against the Relevant JSON Schema
     Examples:
         | json_schema_url                                                     | data_package_file_name                                  |
         | https://specs.frictionlessdata.io/schemas/tabular-data-package.json | uk/gov/metoffice/historic_station_data/datapackage.json |
+        | https://specs.frictionlessdata.io/schemas/tabular-data-package.json | uk/gov/exchange_rates/datapackage.json                  |

@@ -1,0 +1,78 @@
+{
+    "contributers": [
+        {
+            "path": "https://www.cbdq.io",
+            "role": "wrangler",
+            "title": "Cloud Based DQ Ltd."
+        }
+    ],
+    "created": "2024-07-17T06:04:17+00:00",
+    "description": "# UK Integrated Online Tariff\n\nMonthly rates are published on the penultimate Thursday of every month.  They represent the exchange rate as of midday the day before publication and are intended to apply to the following calendar month.",
+    "homepage": "https://www.trade-tariff.service.gov.uk/exchange_rates",
+    "image": "https://en.wikipedia.org/wiki/HM_Revenue_and_Customs#/media/File:HM_Revenue_&_Customs.svg",
+    "keywords": [
+        "Currency",
+        "HMRC",
+        "UK Gov",
+        "historic"
+    ],
+    "licenses": [
+        {
+            "name": "OGL-UK-3.0",
+            "path": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "title": "Open Government Licence 3.0 (United Kingdom)"
+        },
+        {
+            "name": "GPL-3.0",
+            "path": "https://opensource.org/licenses/GPL-3.0",
+            "title": "GNU General Public License 3.0"
+        }
+    ],
+    "name": "io.cbdq.hmrc.exchange-rate",
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "name": "hmrc_exchange_rate_data",
+            "path": "data/gbp-exchange-rate.csv",
+            "profile": "tabular-data-resource",
+            "schema": {
+                "fields": [
+                    {
+                        "description": "The ISO 8601 month.",
+                        "example": "2024-04",
+                        "name": "month",
+                        "type": "yearmonth"
+                    },
+                    {
+                        "description": "The name of the country or territory.",
+                        "name": "country_or_territory",
+                        "type": "string"
+                    },
+                    {
+                        "description": "The name of the currency.",
+                        "name": "currency",
+                        "type": "string"
+                    },
+                    {
+                        "description": "The currency code.",
+                        "name": "code",
+                        "type": "string"
+                    },
+                    {
+                        "description": "The rate against 1 x GBP.",
+                        "name": "rate",
+                        "type": "number"
+                    }
+                ]
+            }
+        }
+    ],
+    "sources": [
+        {
+            "path": "https://www.trade-tariff.service.gov.uk/exchange_rates",
+            "title": "HMRC currency exchange monthly rates"
+        }
+    ],
+    "title": "HMRC currency exchange monthly rates",
+    "version": "1.1.0"
+}

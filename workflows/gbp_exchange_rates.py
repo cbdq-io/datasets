@@ -2,8 +2,10 @@
 """A Flyte Kit workflow to ETL the GBP exchange rate."""
 import calendar
 import csv
+import json
 import os
-from datetime import date, datetime, timedelta
+import datetime
+from datetime import date, timedelta
 
 import logger
 import pandas as pd
@@ -91,7 +93,7 @@ class ExchangeRate:
         months = self.missing_months()
 
         for iso_month in months:
-            month = datetime.strptime(iso_month, '%Y-%m')
+            month = datetime.datetime.strptime(iso_month, '%Y-%m')
             url = 'https://www.trade-tariff.service.gov.uk/api/v2/exchange_rates/files/monthly_csv_'
             url += f'{month.year}-{month.month}.csv'
 
@@ -117,8 +119,8 @@ class ExchangeRate:
         list
             A list of missing months in ISO 8601 format.
         """
-        start_date = datetime.strptime(self._actual_month, '%Y-%m')
-        end_date = datetime.strptime(self._expected_month, '%Y-%m')
+        start_date = datetime.datetime.strptime(self._actual_month, '%Y-%m')
+        end_date = datetime.datetime.strptime(self._expected_month, '%Y-%m')
         month_list = []
         year = start_date.year
         month = start_date.month
@@ -130,7 +132,7 @@ class ExchangeRate:
             month += 1
 
         iso_date = f'{year:04d}-{month:02d}-01'
-        current_date = datetime.fromisoformat(iso_date)
+        current_date = datetime.datetime.fromisoformat(iso_date)
 
         while current_date <= end_date:
             month_list.append(current_date.strftime('%Y-%m'))
@@ -195,6 +197,16 @@ def load(df: pd.DataFrame) -> None:
         The data to be loaded into the CSV file.
     """
     df.to_csv(exchange_rate.load_file_name, index=False)
+
+    with open('uk/gov/exchange_rates/datapackage.json', 'rt') as stream:
+        data_package = json.load(stream)
+
+    data_package['version'] = os.getenv('GIT_TAG')
+    now = datetime.datetime.now(datetime.UTC)
+    data_package['created'] = now.isoformat(timespec='seconds')
+
+    with open('uk/gov/exchange_rates/datapackage.json', 'wt') as stream:
+        json.dump(data_package, stream, indent=4, sort_keys=True)
 
 
 @workflow
