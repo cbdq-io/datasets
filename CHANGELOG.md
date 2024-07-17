@@ -1,6 +1,15 @@
 # Changelog
 
 
+## 1.1.0
+
+### New
+
+* Add data package file for the exchage rate data. [Ben Dalling]
+
+* UK HMRC GBP exchange rate data. [Ben Dalling]
+
+
 ## 1.1.0 (2024-07-01)
 
 ### New
