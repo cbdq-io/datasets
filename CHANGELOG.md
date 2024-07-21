@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.1 (2024-07-18)
+
+### Changes
+
+* Update exchange rate data. [Ben Dalling]
+
+
 ## 1.2.0 (2024-07-17)
 
 ### New
