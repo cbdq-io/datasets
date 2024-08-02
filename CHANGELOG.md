@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.2
+
+### Changes
+
+* Update Met Office Historical Station Data for 2024-07. [Ben Dalling]
+
+
 ## 1.2.1 (2024-07-18)
 
 ### Changes
