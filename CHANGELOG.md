@@ -1,7 +1,29 @@
 # Changelog
 
 
-## 1.2.2
+## 1.2.3
+
+### Changes
+
+* Update exchange rate data 2024-09. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump aiohttp from 3.9.5 to 3.10.2. [dependabot[bot]]
+
+  Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.9.5 to 3.10.2.
+  - [Release notes](https://github.com/aio-libs/aiohttp/releases)
+  - [Changelog](https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst)
+  - [Commits](https://github.com/aio-libs/aiohttp/compare/v3.9.5...v3.10.2)
+
+  ---
+  updated-dependencies:
+  - dependency-name: aiohttp
+    dependency-type: direct:production
+  ...
+
+
+## 1.2.2 (2024-08-02)
 
 ### Changes
 
