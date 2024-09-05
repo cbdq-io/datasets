@@ -2,9 +2,9 @@
 """A Flyte Kit workflow to ETL the GBP exchange rate."""
 import calendar
 import csv
+import datetime
 import json
 import os
-import datetime
 from datetime import date, timedelta
 
 import logger
