@@ -1,7 +1,54 @@
 # Changelog
 
 
-## 1.2.4
+## 1.2.5
+
+### Changes
+
+* Update exchange rate data 2024-10. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump notebook from 7.2.1 to 7.2.2. [dependabot[bot]]
+
+  Bumps [notebook](https://github.com/jupyter/notebook) from 7.2.1 to 7.2.2.
+  - [Release notes](https://github.com/jupyter/notebook/releases)
+  - [Changelog](https://github.com/jupyter/notebook/blob/@jupyter-notebook/tree@7.2.2/CHANGELOG.md)
+  - [Commits](https://github.com/jupyter/notebook/compare/@jupyter-notebook/tree@7.2.1...@jupyter-notebook/tree@7.2.2)
+
+  ---
+  updated-dependencies:
+  - dependency-name: notebook
+    dependency-type: direct:production
+  ...
+
+* Build(deps): bump jupyterlab from 4.2.3 to 4.2.5. [dependabot[bot]]
+
+  Bumps [jupyterlab](https://github.com/jupyterlab/jupyterlab) from 4.2.3 to 4.2.5.
+  - [Release notes](https://github.com/jupyterlab/jupyterlab/releases)
+  - [Changelog](https://github.com/jupyterlab/jupyterlab/blob/@jupyterlab/lsp@4.2.5/CHANGELOG.md)
+  - [Commits](https://github.com/jupyterlab/jupyterlab/compare/@jupyterlab/lsp@4.2.3...@jupyterlab/lsp@4.2.5)
+
+  ---
+  updated-dependencies:
+  - dependency-name: jupyterlab
+    dependency-type: direct:production
+  ...
+
+* Build(deps): bump cryptography from 42.0.8 to 43.0.1. [dependabot[bot]]
+
+  Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.8 to 43.0.1.
+  - [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
+  - [Commits](https://github.com/pyca/cryptography/compare/42.0.8...43.0.1)
+
+  ---
+  updated-dependencies:
+  - dependency-name: cryptography
+    dependency-type: direct:production
+  ...
+
+
+## 1.2.4 (2024-09-05)
 
 ### Changes
 
