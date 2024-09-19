@@ -3,6 +3,10 @@
 
 ## 1.2.4
 
+### Changes
+
+* Update exchange rate data 2024-10. [Ben Dalling]
+
 ### Other
 
 * Build(deps): bump notebook from 7.2.1 to 7.2.2. [dependabot[bot]]
