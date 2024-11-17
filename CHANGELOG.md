@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.8
+
+### New
+
+* Add country data that matches the HMRC currency data country names. [Ben Dalling]
+
+
 ## 1.2.8 (2024-11-01)
 
 ### Changes
