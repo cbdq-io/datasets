@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 1.2.8
+
+### New
+
+* Add country data that matches the HMRC currency data country names. [Ben Dalling]
+
+### Fix
+
+* Acknowledge ISO 3166 data source. [Ben Dalling]
+
+
 ## 1.2.8 (2024-11-01)
 
 ### Changes
