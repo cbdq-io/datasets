@@ -14,7 +14,7 @@ def _():
     """the list of country data countries."""
     response = []
 
-    with open('uk/gov/exchange_rates/data/countries.csv') as stream:
+    with open('org/iso/data/iso-3166.csv') as stream:
         reader = csv.DictReader(stream)
 
         for row in reader:
