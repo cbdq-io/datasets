@@ -1,7 +1,37 @@
 # Changelog
 
 
-## 1.2.8
+## 1.2.9
+
+### New
+
+* Add country data that matches the HMRC currency data country names. [Ben Dalling]
+
+### Changes
+
+* Update exchange rate data 2024-12. [Ben Dalling]
+
+### Fix
+
+* Acknowledge ISO 3166 data source. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump aiohttp from 3.10.2 to 3.10.11. [dependabot[bot]]
+
+  Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.10.2 to 3.10.11.
+  - [Release notes](https://github.com/aio-libs/aiohttp/releases)
+  - [Changelog](https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst)
+  - [Commits](https://github.com/aio-libs/aiohttp/compare/v3.10.2...v3.10.11)
+
+  ---
+  updated-dependencies:
+  - dependency-name: aiohttp
+    dependency-type: direct:production
+  ...
+
+
+## 1.2.8 (2024-11-01)
 
 ### Changes
 
