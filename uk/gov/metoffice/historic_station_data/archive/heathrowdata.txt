@@ -927,3 +927,4 @@ Sunshine data taken from an automatic Kipp & Zonen sensor marked with a #, other
    2024   8   24.5    14.6       0    28.4   188.6#  Provisional
    2024   9   20.1    11.9       0   114.8   121.9#  Provisional
    2024  10   16.4     9.4       0    57.2    80.6#  Provisional
+   2024  11   11.2     6.0       4    62.2    52.7#  Provisional
