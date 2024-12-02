@@ -1,6 +1,27 @@
 # Changelog
 
 
+## 1.2.10
+
+### Changes
+
+* Update Met Office Historical Station Data for 2024-11. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump tornado from 6.4.1 to 6.4.2. [dependabot[bot]]
+
+  Bumps [tornado](https://github.com/tornadoweb/tornado) from 6.4.1 to 6.4.2.
+  - [Changelog](https://github.com/tornadoweb/tornado/blob/v6.4.2/docs/releases.rst)
+  - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.1...v6.4.2)
+
+  ---
+  updated-dependencies:
+  - dependency-name: tornado
+    dependency-type: direct:production
+  ...
+
+
 ## 1.2.9 (2024-11-21)
 
 ### New
