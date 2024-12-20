@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.11
+
+### Changes
+
+* Update exchange rate data 2025-01. [Ben Dalling]
+
+
 ## 1.2.10 (2024-12-02)
 
 ### Changes
