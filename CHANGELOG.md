@@ -1,7 +1,29 @@
 # Changelog
 
 
-## 1.2.11
+## 1.2.12
+
+### Changes
+
+* Update Met Office Historical Station Data for 2024-12. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump jinja2 from 3.1.4 to 3.1.5. [dependabot[bot]]
+
+  Bumps [jinja2](https://github.com/pallets/jinja) from 3.1.4 to 3.1.5.
+  - [Release notes](https://github.com/pallets/jinja/releases)
+  - [Changelog](https://github.com/pallets/jinja/blob/main/CHANGES.rst)
+  - [Commits](https://github.com/pallets/jinja/compare/3.1.4...3.1.5)
+
+  ---
+  updated-dependencies:
+  - dependency-name: jinja2
+    dependency-type: direct:production
+  ...
+
+
+## 1.2.11 (2024-12-20)
 
 ### Changes
 
