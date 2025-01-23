@@ -1,6 +1,15 @@
 # Changelog
 
 
+## 1.2.13 (2025-01-23)
+
+### Fix
+
+* Update exchange rate data 2025-02. [Ben Dalling]
+
+* Backfill missing data for the Cambridge station. [Ben Dalling]
+
+
 ## 1.2.12 (2025-01-02)
 
 ### Changes
