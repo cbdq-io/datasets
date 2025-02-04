@@ -1,7 +1,14 @@
 # Changelog
 
 
-## 1.2.13
+## 1.2.14
+
+### Fix
+
+* Update Met Office Historical Station Data for 2025-01. [Ben Dalling]
+
+
+## 1.2.13 (2025-01-23)
 
 ### Fix
 
