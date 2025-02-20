@@ -1,7 +1,28 @@
 # Changelog
 
 
-## 1.2.14
+## 1.2.15
+
+### Fix
+
+* Update exchange rate data 2025-03. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump cryptography from 43.0.1 to 44.0.1. [dependabot[bot]]
+
+  Bumps [cryptography](https://github.com/pyca/cryptography) from 43.0.1 to 44.0.1.
+  - [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
+  - [Commits](https://github.com/pyca/cryptography/compare/43.0.1...44.0.1)
+
+  ---
+  updated-dependencies:
+  - dependency-name: cryptography
+    dependency-type: direct:production
+  ...
+
+
+## 1.2.14 (2025-02-04)
 
 ### Fix
 
