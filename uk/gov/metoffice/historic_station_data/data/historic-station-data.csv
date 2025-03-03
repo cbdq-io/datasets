@@ -1010,6 +1010,7 @@ aberporth,,2024-10,14.4,False,9.3,False,0.0,False,64.8,False,107.3,False,Kipp & 
 aberporth,,2024-11,11.3,False,6.8,False,0.0,False,88.4,False,38.0,False,Kipp & Zonen sensor,True
 aberporth,,2024-12,9.7,False,5.8,False,0.0,False,105.4,False,19.7,False,Kipp & Zonen sensor,True
 aberporth,,2025-01,7.4,False,3.0,False,1.0,False,115.0,False,58.8,False,Kipp & Zonen sensor,True
+aberporth,,2025-02,8.2,False,3.8,False,0.0,False,59.2,False,76.6,False,Kipp & Zonen sensor,True
 armagh,Armagh,,,,,,,,,,,,,
 armagh,"Location: 287800E 345800N (Irish Grid), Lat 54.352 Lon -6.649, 62 metres amsl",,,,,,,,,,,,,
 armagh,,1853-01,,,,,,,57.3,False,,,,False
@@ -3077,6 +3078,7 @@ armagh,,2024-10,14.5,False,7.8,False,0.0,False,40.6,False,92.2,True,Campbell Sto
 armagh,,2024-11,10.7,False,5.0,False,5.0,False,51.2,False,37.7,True,Campbell Stokes recorder,True
 armagh,,2024-12,9.5,False,4.5,False,4.0,False,40.4,False,25.3,True,Campbell Stokes recorder,True
 armagh,,2025-01,7.4,False,1.7,False,12.0,False,38.8,False,67.8,True,Campbell Stokes recorder,True
+armagh,,2025-02,9.0,False,3.9,False,2.0,False,40.2,False,68.0,True,Campbell Stokes recorder,True
 ballypatrick,Ballypatrick Forest,,,,,,,,,,,,,
 ballypatrick,"Location 317600E 438600N (Irish Grid), Lat 55.181 Lon -6.153, 156m amsl",,,,,,,,,,,,,
 ballypatrick,,1961-07,14.4,False,8.7,False,0.0,False,,,,,,False
@@ -3842,6 +3844,7 @@ ballypatrick,,2024-10,13.1,False,8.3,False,0.0,False,83.6,False,,,Campbell Stoke
 ballypatrick,,2024-11,10.0,False,5.2,False,4.0,False,113.2,False,,,Campbell Stokes recorder,True
 ballypatrick,,2024-12,8.8,False,4.7,False,1.0,False,116.6,False,,,Campbell Stokes recorder,True
 ballypatrick,,2025-01,7.0,False,2.1,False,8.0,False,130.6,False,,,Campbell Stokes recorder,True
+ballypatrick,,2025-02,7.5,False,3.5,False,0.0,False,63.0,False,,,Campbell Stokes recorder,True
 bradford,Bradford,,,,,,,,,,,,,
 bradford,"Location 414900E 435200N, Lat 53.813 Lon -1.772, 134 metres amsl",,,,,,,,,,,,,
 bradford,,1908-01,5.0,False,-1.4,False,21.0,False,,,29.7,False,Campbell Stokes recorder,False
@@ -5249,6 +5252,7 @@ bradford,,2024-10,14.1,False,7.6,False,0.0,False,63.8,False,95.9,True,Campbell S
 bradford,,2024-11,9.5,False,3.4,False,9.0,False,55.8,False,57.1,True,Campbell Stokes recorder,True
 bradford,,2024-12,9.2,False,4.5,False,0.0,False,115.8,False,26.7,True,Campbell Stokes recorder,True
 bradford,,2025-01,5.5,False,0.1,False,14.0,False,92.6,False,65.3,True,Campbell Stokes recorder,True
+bradford,,2025-02,7.6,False,2.4,False,4.0,False,35.6,False,57.1,True,Campbell Stokes recorder,True
 braemar,Braemar,,,,,,,,,,,,,
 braemar,"Location: 315200E 791400N, 339 metres amsl (1959 to Apr 2005),",,,,,,,,,,,,,
 braemar,"& 315200E 791900N, Lat 57.006 Lon -3.396, 327 metres amsl (Aug 2005 onwards)",,,,,,,,,,,,,
@@ -6045,6 +6049,7 @@ braemar,,2024-10,11.7,False,4.5,False,3.0,False,62.6,False,,,Campbell Stokes rec
 braemar,,2024-11,8.4,False,-0.0,False,14.0,False,27.0,False,,,Campbell Stokes recorder,True
 braemar,,2024-12,7.0,False,1.4,False,8.0,False,155.6,False,,,Campbell Stokes recorder,True
 braemar,,2025-01,4.5,False,-2.1,False,20.0,False,49.2,False,,,Campbell Stokes recorder,True
+braemar,,2025-02,5.8,False,-0.5,False,17.0,False,74.0,False,,,Campbell Stokes recorder,True
 camborne,Camborne,,,,,,,,,,,,,
 camborne,"Location 162700E 40700N, Lat 50.218 Lon -5.327, 87m amsl",,,,,,,,,,,,,
 camborne,,1978-09,17.5,False,11.3,False,0.0,False,26.7,False,,,,False
@@ -6604,6 +6609,7 @@ camborne,,2024-10,15.2,False,10.8,False,0.0,False,120.6,False,98.7,False,Kipp & 
 camborne,,2024-11,12.6,False,8.6,False,0.0,False,194.6,False,39.7,False,Kipp & Zonen sensor,True
 camborne,,2024-12,10.5,False,7.1,False,0.0,False,69.0,False,15.2,False,Kipp & Zonen sensor,True
 camborne,,2025-01,9.4,False,4.6,False,0.0,False,152.0,False,60.3,False,Kipp & Zonen sensor,True
+camborne,,2025-02,9.6,False,5.4,False,0.0,False,91.6,False,77.8,False,Kipp & Zonen sensor,True
 cambridge,Cambridge NIAB,,,,,,,,,,,,,
 cambridge,"Location: 543500E 260600N, Lat 52.245 Lon 0.102, 26 metres amsl",,,,,,,,,,,,,
 cambridge,,1959-01,4.4,False,-1.4,False,20.0,False,,,78.1,False,Campbell Stokes recorder,False
@@ -7399,6 +7405,7 @@ cambridge,,2024-10,15.9,False,8.3,False,0.0,False,57.6,False,,,Campbell Stokes r
 cambridge,,2024-11,10.4,False,5.0,False,5.0,False,42.2,False,,,Campbell Stokes recorder,True
 cambridge,,2024-12,9.7,False,5.0,False,1.0,False,47.0,False,,,Campbell Stokes recorder,True
 cambridge,,2025-01,6.5,False,0.8,False,11.0,False,46.4,False,,,Campbell Stokes recorder,True
+cambridge,,2025-02,8.3,False,2.4,False,7.0,False,38.2,False,,,Campbell Stokes recorder,True
 cardiff,Cardiff Bute Park,,,,,,,,,,,,,
 cardiff,"Location 317600E 177300N, Lat 51.488 Lon -3.187, 9 metres amsl",,,,,,,,,,,,,
 cardiff,,1977-09,18.3,False,8.1,False,0.0,False,48.6,False,117.9,False,Campbell Stokes recorder,False
@@ -7970,6 +7977,7 @@ cardiff,,2024-10,15.9,False,8.4,False,0.0,False,122.6,True,,,Campbell Stokes rec
 cardiff,,2024-11,11.7,False,5.4,False,5.0,False,120.0,True,,,Campbell Stokes recorder,True
 cardiff,,2024-12,10.2,False,5.2,False,0.0,False,99.2,False,,,Campbell Stokes recorder,True
 cardiff,,2025-01,8.1,False,0.8,False,15.0,False,128.2,False,,,Campbell Stokes recorder,True
+cardiff,,2025-02,8.9,False,3.0,False,2.0,False,87.6,False,,,Campbell Stokes recorder,True
 chivenor,Chivenor,,,,,,,,,,,,,
 chivenor,"Location 249600E 134400N, Lat 51.089 Lon -4.147, 6m amsl",,,,,,,,,,,,,
 chivenor,,1951-01,7.9,False,3.9,False,,,106.2,False,48.2,False,Campbell Stokes recorder,False
@@ -8801,6 +8809,7 @@ chivenor,,2024-10,16.2,False,9.3,False,0.0,False,130.0,False,,,Campbell Stokes r
 chivenor,,2024-11,12.9,False,7.1,False,1.0,False,91.6,False,,,Campbell Stokes recorder,True
 chivenor,,2024-12,10.8,False,6.7,False,0.0,False,70.5,True,,,Campbell Stokes recorder,True
 chivenor,,2025-01,8.8,False,2.2,False,7.0,False,116.4,False,,,Campbell Stokes recorder,True
+chivenor,,2025-02,9.7,False,4.2,False,4.0,False,52.0,False,,,Campbell Stokes recorder,True
 cwmystwyth,Cwmystwyth,,,,,,,,,,,,,
 cwmystwyth,"Location: 277300E 274900N, Lat 52.358 Lon -3.802, 301 metres amsl",,,,,,,,,,,,,
 cwmystwyth,,1959-01,4.5,False,-1.9,False,20.0,False,,,57.2,False,Campbell Stokes recorder,False
@@ -10068,6 +10077,7 @@ dunstaffnage,,2024-10,14.0,False,8.3,False,0.0,False,157.4,False,,,Campbell Stok
 dunstaffnage,,2024-11,10.3,False,5.6,False,4.0,False,92.2,False,,,Campbell Stokes recorder,True
 dunstaffnage,,2024-12,9.2,False,4.8,False,3.0,False,287.4,False,,,Campbell Stokes recorder,True
 dunstaffnage,,2025-01,7.5,False,2.7,False,6.0,False,91.0,False,,,Campbell Stokes recorder,True
+dunstaffnage,,2025-02,8.6,False,3.5,False,4.0,False,144.0,False,,,Campbell Stokes recorder,True
 durham,Durham,,,,,,,,,,,,,
 durham,"Location: 426700E 541500N, Lat 54.768 Lon -1.585, 102 metres amsl",,,,,,,,,,,,,
 durham,,1880-01,4.2,False,-1.4,False,22.0,False,13.5,False,,,,False
@@ -11811,6 +11821,7 @@ durham,,2024-10,14.4,False,7.2,False,0.0,False,73.0,False,,,Campbell Stokes reco
 durham,,2024-11,9.8,False,3.4,False,9.0,False,19.0,False,,,Campbell Stokes recorder,True
 durham,,2024-12,9.8,False,4.2,False,2.0,False,56.6,True,,,Campbell Stokes recorder,True
 durham,,2025-01,6.2,False,-0.3,False,15.0,False,61.0,False,,,Campbell Stokes recorder,True
+durham,,2025-02,7.9,False,2.1,False,5.0,False,33.4,False,,,Campbell Stokes recorder,True
 eastbourne,Eastbourne,,,,,,,,,,,,,
 eastbourne,"Location: 561100E 98300N, Lat 50.762 Lon 0.285, 7 metres amsl",,,,,,,,,,,,,
 eastbourne,,1959-01,6.4,False,1.1,False,13.0,False,109.5,False,100.4,False,Campbell Stokes recorder,False
@@ -12606,6 +12617,7 @@ eastbourne,,2024-10,16.2,True,11.3,True,0.0,True,107.8,True,94.9,True,Campbell S
 eastbourne,,2024-11,12.0,True,7.4,True,0.0,True,74.9,True,51.4,True,Campbell Stokes recorder,True
 eastbourne,,2024-12,9.9,True,6.3,True,0.0,True,59.9,True,19.2,True,Campbell Stokes recorder,True
 eastbourne,,2025-01,8.0,True,2.9,True,5.0,True,117.6,True,59.5,True,Campbell Stokes recorder,True
+eastbourne,,2025-02,8.2,True,4.1,True,0.0,True,55.0,True,67.0,True,Campbell Stokes recorder,True
 eskdalemuir,Eskdalemuir,,,,,,,,,,,,,
 eskdalemuir,"Location 323400E 602600N, Lat 55.311 Lon -3.206, 242m amsl",,,,,,,,,,,,,
 eskdalemuir,,1911-01,,,,,,,107.7,False,,,,False
@@ -13977,6 +13989,7 @@ eskdalemuir,,2024-10,12.3,False,5.8,False,4.0,False,139.6,False,48.3,False,Kipp 
 eskdalemuir,,2024-11,8.1,False,1.4,False,12.0,False,89.2,False,39.8,False,Kipp & Zonen sensor,True
 eskdalemuir,,2024-12,7.7,False,3.0,False,8.0,False,213.8,False,13.7,False,Kipp & Zonen sensor,True
 eskdalemuir,,2025-01,4.8,False,-0.8,False,18.0,False,85.4,False,61.5,False,Kipp & Zonen sensor,True
+eskdalemuir,,2025-02,6.2,False,1.1,False,9.0,False,145.8,False,28.6,False,Kipp & Zonen sensor,True
 heathrow,Heathrow (London Airport),,,,,,,,,,,,,
 heathrow,"Location 507800E 176700N, Lat 51.479 Lon -0.449, 25m amsl",,,,,,,,,,,,,
 heathrow,,1948-01,8.9,False,3.3,False,,,85.0,False,,,,False
@@ -14904,6 +14917,7 @@ heathrow,,2024-10,16.4,False,9.4,False,0.0,False,57.2,False,80.6,False,Kipp & Zo
 heathrow,,2024-11,11.2,False,6.0,False,4.0,False,62.2,False,52.7,False,Kipp & Zonen sensor,True
 heathrow,,2024-12,9.9,False,5.2,False,0.0,False,27.2,False,20.5,False,Kipp & Zonen sensor,True
 heathrow,,2025-01,7.3,False,1.4,False,10.0,False,80.4,False,51.9,False,Kipp & Zonen sensor,True
+heathrow,,2025-02,8.8,False,2.8,False,6.0,False,44.2,False,67.4,False,Kipp & Zonen sensor,True
 hurn,Hurn,,,,,,,,,,,,,
 hurn,"Location 411700E 97800N, Lat 50.779 Lon -1.835, 10 metres amsl",,,,,,,,,,,,,
 hurn,,1957-01,9.1,False,2.5,False,7.0,False,73.0,False,,,,False
@@ -15723,6 +15737,7 @@ hurn,,2024-10,16.5,False,8.4,False,0.0,False,106.6,False,69.0,False,Kipp & Zonen
 hurn,,2024-11,12.0,False,5.2,False,6.0,False,103.2,False,55.1,False,Kipp & Zonen sensor,True
 hurn,,2024-12,10.3,False,5.0,False,2.0,False,54.6,False,26.8,False,Kipp & Zonen sensor,True
 hurn,,2025-01,8.4,False,0.5,False,14.0,False,134.0,False,66.1,False,Kipp & Zonen sensor,True
+hurn,,2025-02,8.9,False,2.9,False,6.0,False,58.8,False,61.1,False,Kipp & Zonen sensor,True
 lerwick,Lerwick,,,,,,,,,,,,,
 lerwick,"Location: 445300E 1139700N, Lat 60.139 Lon -1.183, 82 metres amsl",,,,,,,,,,,,,
 lerwick,,1930-12,7.0,False,3.6,False,0.0,False,122.4,False,13.1,False,Campbell Stokes recorder,False
@@ -16855,6 +16870,7 @@ lerwick,,2024-10,11.1,False,7.0,False,1.0,False,140.4,False,74.6,False,Kipp & Zo
 lerwick,,2024-11,8.4,False,4.7,False,5.0,False,109.0,False,28.2,False,Kipp & Zonen sensor,True
 lerwick,,2024-12,7.8,False,3.7,False,1.0,False,105.6,True,11.2,False,Kipp & Zonen sensor,True
 lerwick,,2025-01,5.9,False,2.2,False,8.0,False,95.6,True,22.4,False,Kipp & Zonen sensor,True
+lerwick,,2025-02,7.3,False,3.5,False,0.0,False,53.4,False,95.4,False,Kipp & Zonen sensor,True
 leuchars,Leuchars,,,,,,,,,,,,,
 leuchars,"Location: 346800E 720900N, Lat 56.377 Lon -2.861, 10 metres amsl",,,,,,,,,,,,,
 leuchars,,1957-01,8.0,False,1.6,False,7.0,False,70.2,False,59.0,False,Campbell Stokes recorder,False
@@ -17674,6 +17690,7 @@ leuchars,,2024-10,13.9,False,6.8,False,2.0,False,61.4,False,106.5,False,Kipp & Z
 leuchars,,2024-11,9.9,False,2.7,False,9.0,False,36.4,False,76.8,False,Kipp & Zonen sensor,True
 leuchars,,2024-12,9.2,False,3.5,False,7.0,False,61.2,False,44.4,False,Kipp & Zonen sensor,True
 leuchars,,2025-01,6.4,False,-0.1,False,17.0,False,33.4,False,71.6,False,Kipp & Zonen sensor,True
+leuchars,,2025-02,8.1,False,1.9,False,7.0,False,32.0,False,55.7,False,Kipp & Zonen sensor,True
 lowestoft,Lowestoft / Lowestoft Monckton Ave from Sept 2007,,,,,,,,,,,,,
 lowestoft,Location 654300E 294600N 25m amsl to July 2007,,,,,,,,,,,,,
 lowestoft,"& from Sept 2007 653000E 293800N, Lat 52.483 Lon 1.727, 18m amsl",,,,,,,,,,,,,
@@ -18998,6 +19015,7 @@ lowestoft,,2024-10,15.8,True,9.6,True,0.0,True,60.4,True,116.8,True,Campbell Sto
 lowestoft,,2024-11,10.7,True,5.7,True,3.0,True,55.3,True,61.9,True,Campbell Stokes recorder,True
 lowestoft,,2024-12,9.0,True,4.8,True,0.0,True,37.7,True,35.5,True,Campbell Stokes recorder,True
 lowestoft,,2025-01,6.8,True,1.7,True,7.0,True,41.6,True,74.3,True,Campbell Stokes recorder,True
+lowestoft,,2025-02,7.5,True,3.1,True,3.0,True,42.7,True,61.2,True,Campbell Stokes recorder,True
 manston,Manston,,,,,,,,,,,,,
 manston,"Location 632300E 166100N, Lat 51.346 Lon 1.337, 49m amsl",,,,,,,,,,,,,
 manston,,1934-07,22.4,False,12.9,False,,,37.1,False,,,,False
@@ -20003,6 +20021,7 @@ manston,,2024-10,15.9,False,10.1,False,0.0,False,67.8,False,71.6,True,Kipp & Zon
 manston,,2024-11,10.9,False,6.3,False,2.0,False,43.0,False,58.7,True,Kipp & Zonen sensor,True
 manston,,2024-12,9.3,False,5.0,False,0.0,False,31.8,False,37.5,False,Kipp & Zonen sensor,True
 manston,,2025-01,6.9,False,1.6,False,12.0,False,67.0,False,59.9,False,Kipp & Zonen sensor,True
+manston,,2025-02,7.7,False,3.1,False,2.0,False,37.6,False,68.2,False,Kipp & Zonen sensor,True
 nairn,Nairn   there is a site change in 1998,,,,,,,,,,,,,
 nairn,Location before 1998 286900E 856800N 8m amsl,,,,,,,,,,,,,
 nairn,"after 1998 291200E 857300N, Lat 57.593 Lon -3.821, 23 m amsl",,,,,,,,,,,,,
@@ -21135,6 +21154,7 @@ nairn,,2024-10,13.9,True,6.5,True,0.0,True,36.0,True,76.1,True,Campbell Stokes r
 nairn,,2024-11,10.4,True,2.0,True,9.0,True,22.9,True,80.1,True,Campbell Stokes recorder,True
 nairn,,2024-12,9.0,True,3.5,True,6.0,True,150.7,True,31.3,True,Campbell Stokes recorder,True
 nairn,,2025-01,6.3,True,-0.4,True,17.0,True,36.5,True,69.2,True,Campbell Stokes recorder,True
+nairn,,2025-02,8.2,True,0.9,True,14.0,True,13.7,True,104.3,True,Campbell Stokes recorder,True
 newtonrigg,Newton Rigg,,,,,,,,,,,,,
 newtonrigg,"Location 349300E 530800N, Lat 54.670 Lon -2.786, 169 metres amsl",,,,,,,,,,,,,
 newtonrigg,,1959-01,3.5,False,-3.3,False,23.0,False,,,76.9,False,Campbell Stokes recorder,False
@@ -21930,6 +21950,7 @@ newtonrigg,,2024-10,13.6,True,7.2,True,0.0,True,96.1,True,,,Campbell Stokes reco
 newtonrigg,,2024-11,9.2,True,2.8,True,10.0,True,60.4,True,,,Campbell Stokes recorder,True
 newtonrigg,,2024-12,8.6,True,3.7,True,1.0,True,116.1,True,,,Campbell Stokes recorder,True
 newtonrigg,,2025-01,5.3,True,-0.2,True,13.0,True,54.2,True,,,Campbell Stokes recorder,True
+newtonrigg,,2025-02,7.4,True,2.0,True,7.0,True,58.1,True,,,Campbell Stokes recorder,True
 oxford,Oxford,,,,,,,,,,,,,
 oxford,"Location: 450900E 207200N, Lat 51.761 Lon -1.262, 63 metres amsl",,,,,,,,,,,,,
 oxford,,1853-01,8.4,False,2.7,False,4.0,False,62.8,False,,,,False
@@ -23997,6 +24018,7 @@ oxford,,2024-10,15.6,True,8.9,True,0.0,True,71.4,False,98.1,True,Campbell Stokes
 oxford,,2024-11,10.7,True,5.3,False,5.0,False,74.1,False,52.3,False,Campbell Stokes recorder,True
 oxford,,2024-12,9.0,False,5.0,False,0.0,False,45.2,False,19.7,False,Campbell Stokes recorder,True
 oxford,,2025-01,6.8,True,0.7,False,12.0,False,69.7,False,49.9,False,Campbell Stokes recorder,True
+oxford,,2025-02,8.4,True,2.3,False,4.0,False,32.7,False,73.0,True,Campbell Stokes recorder,True
 paisley,Paisley,,,,,,,,,,,,,
 paisley,"Location 247800E 664200N, Lat 55.846 Lon -4.430, 32 metres amsl",,,,,,,,,,,,,
 paisley,,1959-01,4.0,False,-2.0,False,25.0,False,40.9,False,54.1,False,Campbell Stokes recorder,False
@@ -24792,6 +24814,7 @@ paisley,,2024-10,13.8,True,8.2,True,0.0,True,91.8,True,69.3,True,Campbell Stokes
 paisley,,2024-11,9.8,True,4.3,True,8.0,True,55.8,True,36.4,True,Campbell Stokes recorder,True
 paisley,,2024-12,8.7,True,4.6,True,4.0,True,138.8,True,20.7,True,Campbell Stokes recorder,True
 paisley,,2025-01,6.6,True,1.8,True,9.0,True,58.0,True,56.0,True,Campbell Stokes recorder,True
+paisley,,2025-02,8.1,True,3.3,True,2.0,True,93.6,True,51.0,True,Campbell Stokes recorder,True
 ringway,Ringway,,,,,,,,,,,,,
 ringway,"Location: 381400E 384400N, Lat 53.356 Lon -2.279, 69 metres amsl",,,,,,,,,,,,,
 ringway,,1946-01,,,,,,,,,33.2,False,Campbell Stokes recorder,False
@@ -26632,6 +26655,7 @@ rossonwye,,2024-10,15.5,False,8.4,False,1.0,False,98.0,False,105.1,True,Kipp & Z
 rossonwye,,2024-11,10.9,False,5.0,False,4.0,False,101.0,False,56.7,True,Kipp & Zonen sensor,True
 rossonwye,,2024-12,9.7,False,5.0,False,0.0,False,59.2,False,26.2,False,Kipp & Zonen sensor,True
 rossonwye,,2025-01,7.1,False,0.8,False,13.0,False,113.8,False,65.1,False,Kipp & Zonen sensor,True
+rossonwye,,2025-02,8.5,False,2.9,False,5.0,False,56.2,False,58.3,False,Kipp & Zonen sensor,True
 shawbury,Shawbury,,,,,,,,,,,,,
 shawbury,"Location: 355200E 322100N, Lat 52.794 Lon -2.663, 72 metres amsl",,,,,,,,,,,,,
 shawbury,,1946-01,,,,,,,58.3,False,37.8,False,Campbell Stokes recorder,False
@@ -27583,6 +27607,7 @@ shawbury,,2024-10,14.8,False,7.2,False,1.0,False,97.4,False,95.7,False,Kipp & Zo
 shawbury,,2024-11,10.3,False,3.6,False,7.0,False,72.6,False,42.2,False,Kipp & Zonen sensor,True
 shawbury,,2024-12,9.6,False,4.1,False,2.0,False,84.6,False,22.6,False,Kipp & Zonen sensor,True
 shawbury,,2025-01,6.3,False,-0.8,False,18.0,False,61.0,False,70.4,False,Kipp & Zonen sensor,True
+shawbury,,2025-02,8.4,False,2.0,False,6.0,False,28.0,False,70.8,False,Kipp & Zonen sensor,True
 sheffield,Sheffield,,,,,,,,,,,,,
 sheffield,"Location 433900E 387200N, Lat 53.381 Lon -1.490, 131 metres amsl",,,,,,,,,,,,,
 sheffield,,1883-01,6.3,False,1.7,False,6.0,False,122.1,False,,,,False
@@ -29290,6 +29315,7 @@ sheffield,,2024-10,14.2,False,8.1,False,0.0,False,75.8,False,83.6,False,Kipp & Z
 sheffield,,2024-11,9.6,False,4.5,False,7.0,False,62.8,False,58.8,False,Kipp & Zonen sensor,True
 sheffield,,2024-12,9.3,False,4.6,False,0.0,False,118.0,False,42.4,False,Kipp & Zonen sensor,True
 sheffield,,2025-01,5.7,False,1.0,False,9.0,False,100.6,False,81.6,False,Kipp & Zonen sensor,True
+sheffield,,2025-02,7.5,False,2.6,False,4.0,False,35.4,False,59.7,False,Kipp & Zonen sensor,True
 southampton,Southampton,,,,,,,,,,,,,
 southampton,"Location 442000E 112500N, 20 metres amsl (1855 to 1969)",,,,,,,,,,,,,
 southampton,"& 441600E 111200N, Lat 50.898 Lon -1.408, 3 metres amsl (1970 to 2000)",,,,,,,,,,,,,
@@ -32857,6 +32883,7 @@ stornoway,,2024-10,12.5,False,7.8,False,0.0,False,127.4,False,52.7,False,Kipp & 
 stornoway,,2024-11,10.1,False,5.4,False,7.0,False,84.2,False,34.1,False,Kipp & Zonen sensor,True
 stornoway,,2024-12,8.8,False,4.3,False,0.0,False,202.4,False,6.8,False,Kipp & Zonen sensor,True
 stornoway,,2025-01,7.2,False,2.9,False,6.0,False,88.0,False,35.3,False,Kipp & Zonen sensor,True
+stornoway,,2025-02,8.4,False,3.1,False,4.0,False,97.0,False,88.8,False,Kipp & Zonen sensor,True
 suttonbonington,Sutton Bonington,,,,,,,,,,,,,
 suttonbonington,"Location: 450700E 325900N, Lat 52.833 Lon -1.250, 48 metres amsl",,,,,,,,,,,,,
 suttonbonington,,1959-01,4.2,False,-2.4,False,23.0,False,,,78.8,False,Campbell Stokes recorder,False
@@ -33652,6 +33679,7 @@ suttonbonington,,2024-10,14.7,False,7.9,False,0.0,False,48.4,False,,,Campbell St
 suttonbonington,,2024-11,10.0,False,4.0,False,7.0,False,49.0,False,,,Campbell Stokes recorder,True
 suttonbonington,,2024-12,9.7,False,4.8,False,0.0,False,64.8,False,,,Campbell Stokes recorder,True
 suttonbonington,,2025-01,6.0,False,0.4,False,13.0,False,65.4,False,,,Campbell Stokes recorder,True
+suttonbonington,,2025-02,8.2,False,2.6,False,6.0,False,26.2,False,,,Campbell Stokes recorder,True
 tiree,Tiree,,,,,,,,,,,,,
 tiree,"Location: 99800E 744800N, Lat 56.500 Lon -6.880, 12 metres amsl",,,,,,,,,,,,,
 tiree,,1928-01,,,,,,,,,42.8,False,Campbell Stokes recorder,False
@@ -34819,6 +34847,7 @@ tiree,,2024-10,13.2,False,9.1,False,0.0,False,99.0,False,66.8,False,Kipp & Zonen
 tiree,,2024-11,10.7,False,6.6,False,3.0,False,93.2,False,32.4,False,Kipp & Zonen sensor,True
 tiree,,2024-12,9.8,False,5.8,False,1.0,False,159.4,False,10.4,False,Kipp & Zonen sensor,True
 tiree,,2025-01,7.9,False,3.4,False,4.0,False,78.0,False,55.6,False,Kipp & Zonen sensor,True
+tiree,,2025-02,8.2,False,4.2,False,1.0,False,69.6,False,73.4,False,Kipp & Zonen sensor,True
 valley,Valley,,,,,,,,,,,,,
 valley,"Location: 230800E 375800N, Lat 53.252 Lon -4.535, 10 metres amsl",,,,,,,,,,,,,
 valley,,1930-12,8.6,False,5.5,False,0.0,False,130.3,False,31.5,False,Campbell Stokes recorder,False
@@ -35951,6 +35980,7 @@ valley,,2024-10,14.9,False,9.8,False,0.0,False,75.2,False,104.8,False,Kipp & Zon
 valley,,2024-11,12.0,False,6.6,False,2.0,False,49.0,False,36.8,False,Kipp & Zonen sensor,True
 valley,,2024-12,10.4,False,6.6,False,1.0,False,119.2,False,24.0,False,Kipp & Zonen sensor,True
 valley,,2025-01,7.8,False,3.4,False,4.0,False,97.3,True,55.4,False,Kipp & Zonen sensor,True
+valley,,2025-02,8.8,False,4.6,False,2.0,False,38.2,False,95.0,False,Kipp & Zonen sensor,True
 waddington,Waddington,,,,,,,,,,,,,
 waddington,"Location 498800E 365300N, Lat 53.175 Lon -0.522, 68m amsl",,,,,,,,,,,,,
 waddington,,1947-01,3.3,False,-0.7,False,,,34.0,False,60.0,False,Campbell Stokes recorder,False
@@ -36890,6 +36920,7 @@ waddington,,2024-10,14.6,False,8.2,False,0.0,False,58.2,False,91.8,False,Kipp & 
 waddington,,2024-11,9.6,False,4.5,False,4.0,False,28.4,False,68.1,False,Kipp & Zonen sensor,True
 waddington,,2024-12,9.3,False,4.6,False,0.0,False,54.2,False,35.5,False,Kipp & Zonen sensor,True
 waddington,,2025-01,5.5,False,0.3,False,15.0,False,60.4,False,74.2,False,Kipp & Zonen sensor,True
+waddington,,2025-02,7.9,False,2.4,False,4.0,False,25.0,False,62.8,False,Kipp & Zonen sensor,True
 whitby,Whitby Coastguard / Whitby(from 2000 and $sunshine),,,,,,,,,,,,,
 whitby,Location until Dec 1999 490400E 511400N 60m amsl,,,,,,,,,,,,,
 whitby,"& from 2000 489100E 510400N, Lat 54.481 Lon -0.624 41m amsl",,,,,,,,,,,,,
@@ -37654,6 +37685,7 @@ whitby,,2024-10,14.8,False,8.0,False,0.0,False,42.9,False,134.5,True,Campbell St
 whitby,,2024-11,10.1,False,4.4,False,5.0,False,42.7,False,72.1,True,Campbell Stokes recorder,True
 whitby,,2024-12,9.9,True,4.9,False,0.0,False,52.5,False,40.0,True,Campbell Stokes recorder,True
 whitby,,2025-01,6.4,False,1.0,False,10.0,False,65.1,False,89.7,True,Campbell Stokes recorder,True
+whitby,,2025-02,8.1,False,3.0,False,3.0,False,22.9,False,69.9,True,Campbell Stokes recorder,True
 wickairport,Wick Airport,,,,,,,,,,,,,
 wickairport,"Location  336500E 952200N, Lat 58.454 Lon -3.088, 36m amsl",,,,,,,,,,,,,
 wickairport,,1914-01,5.9,False,0.9,False,,,48.3,False,,,,False
@@ -38989,6 +39021,7 @@ wickairport,,2024-10,12.6,False,7.8,False,0.0,False,63.8,False,,,Campbell Stokes
 wickairport,,2024-11,9.4,False,4.2,False,7.0,False,49.8,False,,,Campbell Stokes recorder,True
 wickairport,,2024-12,8.4,False,3.6,False,1.0,False,124.6,False,,,Campbell Stokes recorder,True
 wickairport,,2025-01,6.5,False,0.9,False,13.0,False,50.4,False,,,Campbell Stokes recorder,True
+wickairport,,2025-02,7.8,False,3.2,False,5.0,False,22.4,False,,,Campbell Stokes recorder,True
 yeovilton,Yeovilton,,,,,,,,,,,,,
 yeovilton,"Location: 355100E 123200N, Lat 51.006 Lon -2.641, 20 metres amsl",,,,,,,,,,,,,
 yeovilton,,1964-09,20.5,False,8.8,False,0.0,False,37.4,False,,,,False
@@ -39716,3 +39749,4 @@ yeovilton,,2024-10,16.2,False,8.1,False,0.0,False,102.0,False,85.0,False,Kipp & 
 yeovilton,,2024-11,11.7,False,5.1,False,7.0,False,88.6,False,48.8,False,Kipp & Zonen sensor,True
 yeovilton,,2024-12,10.5,False,5.0,False,1.0,False,29.6,False,27.9,False,Kipp & Zonen sensor,True
 yeovilton,,2025-01,8.0,False,0.8,False,11.0,False,139.0,False,57.1,False,Kipp & Zonen sensor,True
+yeovilton,,2025-02,8.9,False,2.8,False,5.0,False,51.2,False,55.8,False,Kipp & Zonen sensor,True
