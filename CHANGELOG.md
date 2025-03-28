@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.2.17
+
+### Other
+
+* Feat: Add Football data. [Ben Dalling]
+
+
 ## 1.2.17 (2025-03-20)
 
 ### Fix

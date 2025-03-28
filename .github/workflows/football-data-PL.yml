@@ -1,0 +1,36 @@
+name: Daily Football Data Update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout develop branch
+        uses: actions/checkout@v3
+        with:
+          ref: develop
+
+      - name: Run ETL script
+        run: |
+          curl -s -H "X-Auth-Token: $FOOTBALL_DATA_API_KEY" \
+            https://api.football-data.org/v4/competitions/PL/matches \
+            | ./org/football-data/scripts/etl.py
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+
+      - name: Commit and push changes if any
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Automated update of football data"
+            git push origin develop
+          else
+            echo "No changes to commit"
+          fi
