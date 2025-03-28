@@ -11,7 +11,7 @@
   ],
   "resources": [
     {
-      "name": "english-premier-league"",
+      "name": "english-premier-league",
       "path": "data/PL.csv",
       "format": "csv",
       "profile": "tabular-data-resource",
