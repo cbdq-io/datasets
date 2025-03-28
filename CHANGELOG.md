@@ -3,6 +3,10 @@
 
 ## 1.2.17
 
+### Fix
+
+* Correct football data package file. [Ben Dalling]
+
 ### Other
 
 * Feat: Add Football data. [Ben Dalling]
