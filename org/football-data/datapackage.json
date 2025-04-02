@@ -2,7 +2,7 @@
   "name": "football-matches-data",
   "title": "Football Matches Data",
   "description": "A dataset containing football match data including the UTC date, home team, away team, and score.",
-  "version": "1.0.0",
+  "version": "1.2.18",
   "sources": [
     {
       "name": "Football Data",
