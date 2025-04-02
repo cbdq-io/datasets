@@ -1,7 +1,22 @@
 # Changelog
 
 
-## 1.2.17
+## 1.3.0
+
+### Fix
+
+* Update for Met Office data 2025-03. [Ben Dalling]
+
+* Correct football data package file. [Ben Dalling]
+
+### Other
+
+* Automated update of football data. [GitHub Action]
+
+* Feat: Add Football data. [Ben Dalling]
+
+
+## 1.2.17 (2025-03-20)
 
 ### Fix
 
