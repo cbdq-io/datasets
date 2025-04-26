@@ -1,7 +1,60 @@
 # Changelog
 
 
-## 1.3.0
+## 1.3.1
+
+### Fix
+
+* Update exchange rate data 2025-05. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump h11 from 0.14.0 to 0.16.0. [dependabot[bot]]
+
+  Bumps [h11](https://github.com/python-hyper/h11) from 0.14.0 to 0.16.0.
+  - [Commits](https://github.com/python-hyper/h11/compare/v0.14.0...v0.16.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: h11
+    dependency-version: 0.16.0
+    dependency-type: direct:production
+  ...
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+
+## 1.3.0 (2025-04-02)
 
 ### Fix
 
