@@ -1,6 +1,47 @@
 # Changelog
 
 
+## 1.3.1
+
+### Fix
+
+* Update exchange rate data 2025-05. [Ben Dalling]
+
+### Other
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+
 ## 1.3.0 (2025-04-02)
 
 ### Fix
