@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 1.3.1
+
+### Other
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+
 ## 1.3.1 (2025-04-26)
 
 ### Fix
