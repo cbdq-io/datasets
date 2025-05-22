@@ -1,6 +1,59 @@
 # Changelog
 
 
+## 1.3.3
+
+### Fix
+
+* Update exchange rate data for 2025-06. [Ben Dalling]
+
+### Other
+
+* Build(deps): bump setuptools from 77.0.1 to 78.1.1. [dependabot[bot]]
+
+  Bumps [setuptools](https://github.com/pypa/setuptools) from 77.0.1 to 78.1.1.
+  - [Release notes](https://github.com/pypa/setuptools/releases)
+  - [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)
+  - [Commits](https://github.com/pypa/setuptools/compare/v77.0.1...v78.1.1)
+
+  ---
+  updated-dependencies:
+  - dependency-name: setuptools
+    dependency-version: 78.1.1
+    dependency-type: direct:production
+  ...
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+* Automated update of football data. [GitHub Action]
+
+
 ## 1.3.2 (2025-05-02)
 
 ### Fix
