@@ -1,6 +1,15 @@
 # Changelog
 
 
+## 1.3.3
+
+### Other
+
+* Ci: Disable Football workflow now season is over. [Ben Dalling]
+
+* Automated update of football data. [GitHub Action]
+
+
 ## 1.3.3 (2025-05-22)
 
 ### Fix
