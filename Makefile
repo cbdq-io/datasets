@@ -13,7 +13,7 @@ build:
 	LOG_LEVEL=INFO python workflows/gbp_exchange_rates.py
 
 changelog:
-	GIT_TAG=$(GIT_TAG) gitchangelog > CHANGELOG.md
+	docker run --quiet --rm --volume "${PWD}:/mnt/source" --workdir /mnt/source ghcr.io/cbdq-io/gitchangelog > CHANGELOG.md
 
 lint:
 	isort -v .

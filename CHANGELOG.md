@@ -1,11 +1,32 @@
 # Changelog
 
 
-## 1.3.3
+## Unreleased
+
+### Fix
+
+* Migrate to containerised change log management. [Ben Dalling]
+
+### Build
+
+* Bump tornado from 6.4.2 to 6.5.1. [dependabot[bot]]
+
+  Bumps [tornado](https://github.com/tornadoweb/tornado) from 6.4.2 to 6.5.1.
+  - [Changelog](https://github.com/tornadoweb/tornado/blob/master/docs/releases.rst)
+  - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.2...v6.5.1)
+
+  ---
+  updated-dependencies:
+  - dependency-name: tornado
+    dependency-version: 6.5.1
+    dependency-type: direct:production
+  ...
+
+### Continuous Integration
+
+* Disable Football workflow now season is over. [Ben Dalling]
 
 ### Other
-
-* Ci: Disable Football workflow now season is over. [Ben Dalling]
 
 * Automated update of football data. [GitHub Action]
 
@@ -16,9 +37,9 @@
 
 * Update exchange rate data for 2025-06. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump setuptools from 77.0.1 to 78.1.1. [dependabot[bot]]
+* Bump setuptools from 77.0.1 to 78.1.1. [dependabot[bot]]
 
   Bumps [setuptools](https://github.com/pypa/setuptools) from 77.0.1 to 78.1.1.
   - [Release notes](https://github.com/pypa/setuptools/releases)
@@ -31,6 +52,8 @@
     dependency-version: 78.1.1
     dependency-type: direct:production
   ...
+
+### Other
 
 * Automated update of football data. [GitHub Action]
 
@@ -69,9 +92,9 @@
 
 * Update for Met Office data 2025-04. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump h11 from 0.14.0 to 0.16.0. [dependabot[bot]]
+* Bump h11 from 0.14.0 to 0.16.0. [dependabot[bot]]
 
   Bumps [h11](https://github.com/python-hyper/h11) from 0.14.0 to 0.16.0.
   - [Commits](https://github.com/python-hyper/h11/compare/v0.14.0...v0.16.0)
@@ -82,6 +105,8 @@
     dependency-version: 0.16.0
     dependency-type: direct:production
   ...
+
+### Other
 
 * Automated update of football data. [GitHub Action]
 
@@ -96,9 +121,9 @@
 
 * Update exchange rate data 2025-05. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump h11 from 0.14.0 to 0.16.0. [dependabot[bot]]
+* Bump h11 from 0.14.0 to 0.16.0. [dependabot[bot]]
 
   Bumps [h11](https://github.com/python-hyper/h11) from 0.14.0 to 0.16.0.
   - [Commits](https://github.com/python-hyper/h11/compare/v0.14.0...v0.16.0)
@@ -109,6 +134,8 @@
     dependency-version: 0.16.0
     dependency-type: direct:production
   ...
+
+### Other
 
 * Automated update of football data. [GitHub Action]
 
@@ -145,6 +172,10 @@
 
 ## 1.3.0 (2025-04-02)
 
+### Features
+
+* Add Football data. [Ben Dalling]
+
 ### Fix
 
 * Update for Met Office data 2025-03. [Ben Dalling]
@@ -154,8 +185,6 @@
 ### Other
 
 * Automated update of football data. [GitHub Action]
-
-* Feat: Add Football data. [Ben Dalling]
 
 
 ## 1.2.17 (2025-03-20)
@@ -178,9 +207,9 @@
 
 * Update exchange rate data 2025-03. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump cryptography from 43.0.1 to 44.0.1. [dependabot[bot]]
+* Bump cryptography from 43.0.1 to 44.0.1. [dependabot[bot]]
 
   Bumps [cryptography](https://github.com/pyca/cryptography) from 43.0.1 to 44.0.1.
   - [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
@@ -215,9 +244,9 @@
 
 * Update Met Office Historical Station Data for 2024-12. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump jinja2 from 3.1.4 to 3.1.5. [dependabot[bot]]
+* Bump jinja2 from 3.1.4 to 3.1.5. [dependabot[bot]]
 
   Bumps [jinja2](https://github.com/pallets/jinja) from 3.1.4 to 3.1.5.
   - [Release notes](https://github.com/pallets/jinja/releases)
@@ -244,9 +273,9 @@
 
 * Update Met Office Historical Station Data for 2024-11. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump tornado from 6.4.1 to 6.4.2. [dependabot[bot]]
+* Bump tornado from 6.4.1 to 6.4.2. [dependabot[bot]]
 
   Bumps [tornado](https://github.com/tornadoweb/tornado) from 6.4.1 to 6.4.2.
   - [Changelog](https://github.com/tornadoweb/tornado/blob/v6.4.2/docs/releases.rst)
@@ -261,6 +290,10 @@
 
 ## 1.2.9 (2024-11-21)
 
+### Fix
+
+* Acknowledge ISO 3166 data source. [Ben Dalling]
+
 ### New
 
 * Add country data that matches the HMRC currency data country names. [Ben Dalling]
@@ -269,13 +302,9 @@
 
 * Update exchange rate data 2024-12. [Ben Dalling]
 
-### Fix
+### Build
 
-* Acknowledge ISO 3166 data source. [Ben Dalling]
-
-### Other
-
-* Build(deps): bump aiohttp from 3.10.2 to 3.10.11. [dependabot[bot]]
+* Bump aiohttp from 3.10.2 to 3.10.11. [dependabot[bot]]
 
   Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.10.2 to 3.10.11.
   - [Release notes](https://github.com/aio-libs/aiohttp/releases)
@@ -316,9 +345,9 @@
 
 * Update exchange rate data 2024-10. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump notebook from 7.2.1 to 7.2.2. [dependabot[bot]]
+* Bump notebook from 7.2.1 to 7.2.2. [dependabot[bot]]
 
   Bumps [notebook](https://github.com/jupyter/notebook) from 7.2.1 to 7.2.2.
   - [Release notes](https://github.com/jupyter/notebook/releases)
@@ -331,7 +360,7 @@
     dependency-type: direct:production
   ...
 
-* Build(deps): bump jupyterlab from 4.2.3 to 4.2.5. [dependabot[bot]]
+* Bump jupyterlab from 4.2.3 to 4.2.5. [dependabot[bot]]
 
   Bumps [jupyterlab](https://github.com/jupyterlab/jupyterlab) from 4.2.3 to 4.2.5.
   - [Release notes](https://github.com/jupyterlab/jupyterlab/releases)
@@ -344,7 +373,7 @@
     dependency-type: direct:production
   ...
 
-* Build(deps): bump cryptography from 42.0.8 to 43.0.1. [dependabot[bot]]
+* Bump cryptography from 42.0.8 to 43.0.1. [dependabot[bot]]
 
   Bumps [cryptography](https://github.com/pyca/cryptography) from 42.0.8 to 43.0.1.
   - [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
@@ -370,9 +399,9 @@
 
 * Update exchange rate data 2024-09. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump aiohttp from 3.9.5 to 3.10.2. [dependabot[bot]]
+* Bump aiohttp from 3.9.5 to 3.10.2. [dependabot[bot]]
 
   Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.9.5 to 3.10.2.
   - [Release notes](https://github.com/aio-libs/aiohttp/releases)
@@ -408,9 +437,9 @@
 
 * UK HMRC GBP exchange rate data. [Ben Dalling]
 
-### Other
+### Build
 
-* Build(deps): bump certifi from 2024.6.2 to 2024.7.4. [dependabot[bot]]
+* Bump certifi from 2024.6.2 to 2024.7.4. [dependabot[bot]]
 
   Bumps [certifi](https://github.com/certifi/python-certifi) from 2024.6.2 to 2024.7.4.
   - [Commits](https://github.com/certifi/python-certifi/compare/2024.06.02...2024.07.04)
@@ -423,6 +452,12 @@
 
 
 ## 1.1.0 (2024-07-01)
+
+### Fix
+
+* Give GX Metoffice checkpoint a more meaningful name. [Ben Dalling]
+
+* Remove BSD-3-Cluase licence. [Ben Dalling]
 
 ### New
 
@@ -440,15 +475,9 @@
 
 * Migrate from Markdown to HTML for the DQ report. [Ben Dalling]
 
-### Fix
+### Build
 
-* Give GX Metoffice checkpoint a more meaningful name. [Ben Dalling]
-
-* Remove BSD-3-Cluase licence. [Ben Dalling]
-
-### Other
-
-* Build(deps): bump urllib3 from 2.2.1 to 2.2.2. [dependabot[bot]]
+* Bump urllib3 from 2.2.1 to 2.2.2. [dependabot[bot]]
 
   Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.2.1 to 2.2.2.
   - [Release notes](https://github.com/urllib3/urllib3/releases)
@@ -482,16 +511,20 @@
 
 ## 0.2.1 (2024-05-01)
 
-### Changes
-
-* Fill in missing sun instrument data. [Ben Dalling]
-
 ### Fix
 
 * Correct changelog. [Ben Dalling]
 
+### Changes
+
+* Fill in missing sun instrument data. [Ben Dalling]
+
 
 ## 0.2.0 (2024-05-01)
+
+### Fix
+
+* Update Python packages to avoid CVE-2024-3651. [Ben Dalling]
 
 ### New
 
@@ -501,12 +534,12 @@
 
 * Add Avro and tests. [Ben Dalling]
 
-### Fix
-
-* Update Python packages to avoid CVE-2024-3651. [Ben Dalling]
-
 
 ## 0.1.0 (2024-04-01)
+
+### Fix
+
+* Remove duplicate metadata rows. [Ben Dalling]
 
 ### New
 
@@ -515,13 +548,5 @@
 * Extract, transform and load Met Office historical station data. [Ben Dalling]
 
 * Data generated 2024-04-01. [Ben Dalling]
-
-### Fix
-
-* Remove duplicate metadata rows. [Ben Dalling]
-
-### Other
-
-* Initial commit. [Ben Dalling]
 
 
