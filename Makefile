@@ -1,6 +1,6 @@
 .EXPORT_ALL_VARIABLES:
 
-GIT_TAG = 1.3.3
+GIT_TAG = 1.3.4
 
 all: lint avro build test
 
@@ -13,7 +13,7 @@ build:
 	LOG_LEVEL=INFO python workflows/gbp_exchange_rates.py
 
 changelog:
-	GIT_TAG=$(GIT_TAG) gitchangelog > CHANGELOG.md
+	docker run --quiet --rm --volume "${PWD}:/mnt/source" --workdir /mnt/source ghcr.io/cbdq-io/gitchangelog > CHANGELOG.md
 
 lint:
 	isort -v .
