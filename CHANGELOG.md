@@ -5,6 +5,8 @@
 
 ### Fix
 
+* Update Met Office Historical Station Data for 2025-05. [Ben Dalling]
+
 * Migrate to containerised change log management. [Ben Dalling]
 
 ### Build
