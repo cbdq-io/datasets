@@ -153,7 +153,7 @@ prometheus_client==0.21.1
 prompt_toolkit==3.0.50
 propcache==0.3.0
 proto-plus==1.26.1
-protobuf==5.29.4
+protobuf==5.29.5
 protoc-gen-openapiv2==0.0.1
 psutil==7.0.0
 ptyprocess==0.7.0
