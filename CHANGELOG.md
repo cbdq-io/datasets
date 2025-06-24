@@ -1,6 +1,57 @@
 # Changelog
 
 
+## Unreleased
+
+### Fix
+
+* Update exchange rate data for 2025-07. [Ben Dalling]
+
+### Build
+
+* Bump urllib3 from 2.3.0 to 2.5.0. [dependabot[bot]]
+
+  Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.3.0 to 2.5.0.
+  - [Release notes](https://github.com/urllib3/urllib3/releases)
+  - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+  - [Commits](https://github.com/urllib3/urllib3/compare/2.3.0...2.5.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: urllib3
+    dependency-version: 2.5.0
+    dependency-type: direct:production
+  ...
+
+* Bump requests from 2.32.3 to 2.32.4. [dependabot[bot]]
+
+  Bumps [requests](https://github.com/psf/requests) from 2.32.3 to 2.32.4.
+  - [Release notes](https://github.com/psf/requests/releases)
+  - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
+  - [Commits](https://github.com/psf/requests/compare/v2.32.3...v2.32.4)
+
+  ---
+  updated-dependencies:
+  - dependency-name: requests
+    dependency-version: 2.32.4
+    dependency-type: direct:production
+  ...
+
+* Bump protobuf from 5.29.4 to 5.29.5. [dependabot[bot]]
+
+  Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 5.29.4 to 5.29.5.
+  - [Release notes](https://github.com/protocolbuffers/protobuf/releases)
+  - [Changelog](https://github.com/protocolbuffers/protobuf/blob/main/protobuf_release.bzl)
+  - [Commits](https://github.com/protocolbuffers/protobuf/compare/v5.29.4...v5.29.5)
+
+  ---
+  updated-dependencies:
+  - dependency-name: protobuf
+    dependency-version: 5.29.5
+    dependency-type: direct:production
+  ...
+
+
 ## 1.3.4 (2025-06-02)
 
 ### Fix
