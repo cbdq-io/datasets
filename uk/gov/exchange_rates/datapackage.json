@@ -6,7 +6,7 @@
             "title": "Cloud Based DQ Ltd."
         }
     ],
-    "created": "2025-05-22T07:48:54+00:00",
+    "created": "2025-06-24T06:58:31+00:00",
     "description": "# UK Integrated Online Tariff\n\nMonthly rates are published on the penultimate Thursday of every month.  They represent the exchange rate as of midday the day before publication and are intended to apply to the following calendar month.",
     "homepage": "https://www.trade-tariff.service.gov.uk/exchange_rates",
     "image": "https://en.wikipedia.org/wiki/HM_Revenue_and_Customs#/media/File:HM_Revenue_&_Customs.svg",
@@ -74,5 +74,5 @@
         }
     ],
     "title": "HMRC currency exchange monthly rates",
-    "version": "1.3.3"
+    "version": "1.3.5"
 }
