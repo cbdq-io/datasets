@@ -1,6 +1,13 @@
 # Changelog
 
 
+## Unreleased
+
+### Fix
+
+* Update Met Office data for 2025-06. [Ben Dalling]
+
+
 ## 1.3.5 (2025-06-24)
 
 ### Fix
