@@ -803,3 +803,4 @@ Sunshine data taken from an automatic Kipp & Zonen sensor marked with a #, other
    2025   3   10.4     0.9      14    27.0    ---    Provisional
    2025   4   13.7     1.1      14    19.2    ---    Provisional
    2025   5   16.6     2.9       7    42.2    ---    Provisional
+   2025   6   17.4     8.3       0    60.8    ---    Provisional
