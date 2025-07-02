@@ -1,7 +1,7 @@
 # Changelog
 
 
-## Unreleased
+## 1.3.6 (2025-07-02)
 
 ### Fix
 
