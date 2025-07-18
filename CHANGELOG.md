@@ -1,6 +1,31 @@
 # Changelog
 
 
+## Unreleased
+
+### Features
+
+* Add data for Campeonato Brasileiro Série A. [Ben Dalling]
+
+### Build
+
+* Update Python packages. [Ben Dalling]
+
+* Bump aiohttp from 3.11.14 to 3.12.14. [dependabot[bot]]
+
+  Bumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.11.14 to 3.12.14.
+  - [Release notes](https://github.com/aio-libs/aiohttp/releases)
+  - [Changelog](https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst)
+  - [Commits](https://github.com/aio-libs/aiohttp/compare/v3.11.14...v3.12.14)
+
+  ---
+  updated-dependencies:
+  - dependency-name: aiohttp
+    dependency-version: 3.12.14
+    dependency-type: direct:production
+  ...
+
+
 ## 1.3.6 (2025-07-02)
 
 ### Fix
