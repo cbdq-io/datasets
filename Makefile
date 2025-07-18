@@ -4,6 +4,11 @@ GIT_TAG = 1.3.6
 
 all: lint avro build test
 
+BSA:
+	curl -s -H "X-Auth-Token: ${FOOTBALL_DATA_API_KEY}" \
+	    https://api.football-data.org/v4/competitions/BSA/matches \
+	    | ./org/football-data/scripts/etl.py
+
 avro:
 	make -C avro
 
