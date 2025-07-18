@@ -11,6 +11,39 @@
   ],
   "resources": [
     {
+      "name": "campeonato-brasileiro-serie-a",
+      "path": "data/BSA.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "english-premier-league",
       "path": "data/PL.csv",
       "format": "csv",
