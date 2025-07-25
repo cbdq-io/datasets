@@ -9,6 +9,8 @@
 
 ### Fix
 
+* Resolve CVE-2025-30167. [Ben Dalling]
+
 * Update exchange rate data for 2025-08. [Ben Dalling]
 
 * Upstream gateway for exchange rate data is rerouting incorrectly. [Ben Dalling]
