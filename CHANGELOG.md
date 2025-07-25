@@ -7,6 +7,14 @@
 
 * Add data for Campeonato Brasileiro Série A. [Ben Dalling]
 
+### Fix
+
+* Update exchange rate data for 2025-08. [Ben Dalling]
+
+* Upstream gateway for exchange rate data is rerouting incorrectly. [Ben Dalling]
+
+* Update campeonato-brasileiro-serie-a. [Ben Dalling]
+
 ### Build
 
 * Update Python packages. [Ben Dalling]
