@@ -19,6 +19,8 @@
 
 ### Build
 
+* Release/1.4.0. [Ben Dalling]
+
 * Update Python packages. [Ben Dalling]
 
 * Bump aiohttp from 3.11.14 to 3.12.14. [dependabot[bot]]
