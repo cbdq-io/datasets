@@ -94,7 +94,7 @@ class ExchangeRate:
 
         for iso_month in months:
             month = datetime.datetime.strptime(iso_month, '%Y-%m')
-            url = f'https://www.trade-tariff.service.gov.uk/uk/api/exchange_rates/files/monthly_csv_'
+            url = 'https://www.trade-tariff.service.gov.uk/uk/api/exchange_rates/files/monthly_csv_'
             url += f'{month.year}-{month.month}.csv'
             logger.info(f'Reading from "{url}".')
 
