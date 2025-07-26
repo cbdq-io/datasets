@@ -94,9 +94,8 @@ class ExchangeRate:
 
         for iso_month in months:
             month = datetime.datetime.strptime(iso_month, '%Y-%m')
-            url = f'file://{os.environ["HOME"]}/Downloads/exrates-monthly-'
-            shortended_year = month.year - 2000
-            url += f'{month.month:02}{shortended_year}.csv'
+            url = f'https://www.trade-tariff.service.gov.uk/uk/api/exchange_rates/files/monthly_csv_'
+            url += f'{month.year}-{month.month}.csv'
             logger.info(f'Reading from "{url}".')
 
             with smart_open.open(url, 'rt') as stream:
