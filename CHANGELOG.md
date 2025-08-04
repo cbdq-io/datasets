@@ -1,9 +1,11 @@
 # Changelog
 
 
-## Unreleased
+## 1.4.1 (2025-08-04)
 
 ### Fix
+
+* Update of Met Office data for 2025-07. [Ben Dalling]
 
 * HMRC have recovered their redirect for ER data. [Ben Dalling]
 
