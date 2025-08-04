@@ -3,6 +3,15 @@
 
 ## Unreleased
 
+### Fix
+
+* Update of Met Office data for 2025-07. [Ben Dalling]
+
+* HMRC have recovered their redirect for ER data. [Ben Dalling]
+
+
+## 1.4.0 (2025-07-25)
+
 ### Features
 
 * Add data for Campeonato Brasileiro Série A. [Ben Dalling]
