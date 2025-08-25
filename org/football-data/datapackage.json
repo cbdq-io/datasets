@@ -11,6 +11,39 @@
   ],
   "resources": [
     {
+      "name": "german-bundesliga",
+      "path": "data/BL1.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "campeonato-brasileiro-serie-a",
       "path": "data/BSA.csv",
       "format": "csv",
@@ -44,8 +77,173 @@
       }
     },
     {
+      "name": "english-championship",
+      "path": "data/ELC.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "english-premier-league",
       "path": "data/PL.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "french-ligue-1",
+      "path": "data/FL1.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "italian-serie-a",
+      "path": "data/SA.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "dutch-eredivisie",
+      "path": "data/DED.csv",
+      "format": "csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "utcDate",
+            "description": "The date/time (UTC) of kick off.",
+            "type": "datetime"
+          },
+          {
+            "name": "homeTeam",
+            "description": "The short name of the home team.",
+            "type": "string"
+          },
+          {
+            "name": "awayTeam",
+            "description": "The short name of the away team.",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "description": "The full-time score.  Will be blank if not yet played.",
+            "type": "string",
+            "constraints": {
+              "required": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "portuguese-primeira-liga",
+      "path": "data/PPL.csv",
       "format": "csv",
       "profile": "tabular-data-resource",
       "schema": {
