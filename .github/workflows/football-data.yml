@@ -44,6 +44,10 @@ jobs:
           curl -s -H "X-Auth-Token: $FOOTBALL_DATA_API_KEY" \
             https://api.football-data.org/v4/competitions/DED/matches \
             | ./org/football-data/scripts/etl.py
+          sleep 10
+          curl -s -H "X-Auth-Token: $FOOTBALL_DATA_API_KEY" \
+            https://api.football-data.org/v4/competitions/PPL/matches \
+            | ./org/football-data/scripts/etl.py
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
 
