@@ -3,6 +3,33 @@
 
 ## Unreleased
 
+### Features
+
+* Auto-update for portuguese-primeira-liga (PPL) [Ben Dalling]
+
+* Add auto-update for dutch-eredivisie (DED) [Ben Dalling]
+
+* Add auto-update for Italian Serie A (SA) [Ben Dalling]
+
+* Add auto-update for German Bundesliga (BL1) [Ben Dalling]
+
+* Add auto-update for French Ligue 1 (FL1) [Ben Dalling]
+
+* Add auto-update for the English Championship (ELC) [Ben Dalling]
+
+* Auto-updates for the Premier League (PL) [Ben Dalling]
+
+### Fix
+
+* Update exchange rate data for 2025-09. [Ben Dalling]
+
+### Build
+
+* Update GitHub actions automatically. [Ben Dalling]
+
+
+## 1.4.1 (2025-08-04)
+
 ### Fix
 
 * Update of Met Office data for 2025-07. [Ben Dalling]
