@@ -18,6 +18,10 @@ jobs:
       - name: Run ETL script
         run: |
           curl -s -H "X-Auth-Token: $FOOTBALL_DATA_API_KEY" \
+            https://api.football-data.org/v4/competitions/BL1/matches \
+            | ./org/football-data/scripts/etl.py
+          sleep 10
+          curl -s -H "X-Auth-Token: $FOOTBALL_DATA_API_KEY" \
             https://api.football-data.org/v4/competitions/BSA/matches \
             | ./org/football-data/scripts/etl.py
           sleep 10
