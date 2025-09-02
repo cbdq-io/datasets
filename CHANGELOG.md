@@ -1,6 +1,13 @@
 # Changelog
 
 
+## Unreleased
+
+### Fix
+
+* Update Met Office Historic Station Data 2025-08. [Ben Dalling]
+
+
 ## 1.5.0 (2025-08-25)
 
 ### Features
