@@ -7,6 +7,23 @@
 
 * Update Met Office Historic Station Data 2025-08. [Ben Dalling]
 
+### Build
+
+* Bump actions/checkout from 3 to 5. [dependabot[bot]]
+
+  Bumps [actions/checkout](https://github.com/actions/checkout) from 3 to 5.
+  - [Release notes](https://github.com/actions/checkout/releases)
+  - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/actions/checkout/compare/v3...v5)
+
+  ---
+  updated-dependencies:
+  - dependency-name: actions/checkout
+    dependency-version: '5'
+    dependency-type: direct:production
+    update-type: version-update:semver-major
+  ...
+
 
 ## 1.5.0 (2025-08-25)
 
