@@ -5,6 +5,13 @@
 
 ### Fix
 
+* Update exchange rate data for 2025-10. [Ben Dalling]
+
+
+## 1.5.1 (2025-09-02)
+
+### Fix
+
 * Update Met Office Historic Station Data 2025-08. [Ben Dalling]
 
 ### Build
