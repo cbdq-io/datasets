@@ -10,6 +10,25 @@
 
 ## 1.5.1 (2025-09-02)
 
+### Build
+
+* Bump actions/setup-python from 5 to 6. [dependabot[bot]]
+
+  Bumps [actions/setup-python](https://github.com/actions/setup-python) from 5 to 6.
+  - [Release notes](https://github.com/actions/setup-python/releases)
+  - [Commits](https://github.com/actions/setup-python/compare/v5...v6)
+
+  ---
+  updated-dependencies:
+  - dependency-name: actions/setup-python
+    dependency-version: '6'
+    dependency-type: direct:production
+    update-type: version-update:semver-major
+  ...
+
+
+## 1.5.1 (2025-09-02)
+
 ### Fix
 
 * Update Met Office Historic Station Data 2025-08. [Ben Dalling]
