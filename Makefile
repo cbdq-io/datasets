@@ -1,6 +1,6 @@
 .EXPORT_ALL_VARIABLES:
 
-GIT_TAG = 1.5.2
+GIT_TAG = 1.5.3
 
 all: lint avro build test
 

@@ -5,6 +5,40 @@
 
 ### Fix
 
+* Update Met Office Historical Station Data for 2025-09. [Ben Dalling]
+
+### Build
+
+* Update notebook Python package. [Ben Dalling]
+
+* Bump jupyterlab from 4.3.8 to 4.4.8. [dependabot[bot]]
+
+  ---
+  updated-dependencies:
+  - dependency-name: jupyterlab
+    dependency-version: 4.4.8
+    dependency-type: direct:production
+  ...
+
+* Bump actions/setup-python from 5 to 6. [dependabot[bot]]
+
+  Bumps [actions/setup-python](https://github.com/actions/setup-python) from 5 to 6.
+  - [Release notes](https://github.com/actions/setup-python/releases)
+  - [Commits](https://github.com/actions/setup-python/compare/v5...v6)
+
+  ---
+  updated-dependencies:
+  - dependency-name: actions/setup-python
+    dependency-version: '6'
+    dependency-type: direct:production
+    update-type: version-update:semver-major
+  ...
+
+
+## 1.5.2 (2025-09-23)
+
+### Fix
+
 * Update exchange rate data for 2025-10. [Ben Dalling]
 
 
