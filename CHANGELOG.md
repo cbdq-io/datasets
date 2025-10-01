@@ -5,6 +5,8 @@
 
 ### Build
 
+* Update notebook Python package. [Ben Dalling]
+
 * Bump jupyterlab from 4.3.8 to 4.4.8. [dependabot[bot]]
 
   ---
