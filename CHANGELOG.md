@@ -3,6 +3,10 @@
 
 ## Unreleased
 
+### Fix
+
+* Update Met Office Historical Station Data for 2025-09. [Ben Dalling]
+
 ### Build
 
 * Update notebook Python package. [Ben Dalling]
