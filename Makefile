@@ -1,6 +1,6 @@
 .EXPORT_ALL_VARIABLES:
 
-GIT_TAG = 1.5.3
+GIT_TAG = 1.5.4
 
 all: lint avro build test
 
@@ -13,8 +13,6 @@ avro:
 	make -C avro
 
 build:
-	./uk/gov/metoffice/historic_station_data/scripts/etl.py
-	./gx.py -v
 	LOG_LEVEL=INFO python workflows/gbp_exchange_rates.py
 
 changelog:
