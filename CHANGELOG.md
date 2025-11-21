@@ -1,6 +1,13 @@
 # Changelog
 
 
+## Unreleased
+
+### Fix
+
+* Update exchange rate data for 2025-12. [Ben Dalling]
+
+
 ## 1.5.4 (2025-10-24)
 
 ### Fix
