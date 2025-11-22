@@ -1,7 +1,7 @@
 # Changelog
 
 
-## Unreleased
+## 1.5.5 (2025-11-22)
 
 ### Fix
 
