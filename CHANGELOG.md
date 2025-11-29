@@ -3,6 +3,10 @@
 
 ## Unreleased
 
+### Features
+
+* Add the UN M49 dataset. [Ben Dalling]
+
 ### Build
 
 * Bump actions/checkout from 5 to 6. [dependabot[bot]]
