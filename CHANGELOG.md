@@ -3,6 +3,30 @@
 
 ## Unreleased
 
+### Features
+
+* Add the UN M49 dataset. [Ben Dalling]
+
+### Build
+
+* Bump actions/checkout from 5 to 6. [dependabot[bot]]
+
+  Bumps [actions/checkout](https://github.com/actions/checkout) from 5 to 6.
+  - [Release notes](https://github.com/actions/checkout/releases)
+  - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/actions/checkout/compare/v5...v6)
+
+  ---
+  updated-dependencies:
+  - dependency-name: actions/checkout
+    dependency-version: '6'
+    dependency-type: direct:production
+    update-type: version-update:semver-major
+  ...
+
+
+## 1.5.5 (2025-11-22)
+
 ### Fix
 
 * Update exchange rate data for 2025-12. [Ben Dalling]
