@@ -1,0 +1,110 @@
+{
+  "bytes": 19458,
+  "count_of_rows": 248,
+  "hash": "587ed4fd9378668c2afbbb57c178134d",
+  "name": "m49_overview_csv",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 19458,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "204f153f968551f838571539e4162c4b",
+      "name": "m49_overview",
+      "path": "m49_overview.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Global Code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Global Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Region Code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Region Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Sub-region Code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Sub-region Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Intermediate Region Code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Intermediate Region Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Country or Area",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "M49 Code",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "ISO-alpha2 Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ISO-alpha3 Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Least Developed Countries (LDC)",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Land Locked Developing Countries (LLDC)",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Small Island Developing States (SIDS)",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "m49_overview.csv"
+}
