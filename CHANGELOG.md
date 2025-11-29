@@ -1,7 +1,7 @@
 # Changelog
 
 
-## Unreleased
+## 1.6.0 (2025-11-29)
 
 ### Features
 
