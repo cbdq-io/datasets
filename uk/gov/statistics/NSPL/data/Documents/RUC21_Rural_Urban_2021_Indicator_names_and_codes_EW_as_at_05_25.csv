@@ -1,0 +1,7 @@
+﻿RUC21IND,RUC21DESC,Urban_rural_flag
+RLF1,Larger rural: Further from a major town or city,Rural
+RLN1,Larger rural: Nearer to a major town or city,Rural
+RSF1,Smaller rural: Further from a major town or city,Rural
+RSN1,Smaller rural: Nearer to a major town or city,Rural
+UF1,Urban: Further from a major town or city,Urban
+UN1,Urban: Nearer to a major town or city,Urban
