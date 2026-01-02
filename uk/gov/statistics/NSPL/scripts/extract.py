@@ -1,8 +1,10 @@
 #!/usr/bin/env python
-#############################################################################
-# Extract CSV data from the Zip Archive downloaded from
-# <https://geoportal.statistics.gov.uk/datasets/8a1d5b58df824b2e86fe07ddfdd87165/about>.
-#############################################################################
+"""
+National Statistics Postcode Lookup.
+
+Extract CSV data from the Zip Archive downloaded from
+<https://geoportal.statistics.gov.uk/datasets/8a1d5b58df824b2e86fe07ddfdd87165/about>.
+"""
 import argparse
 import logging
 import os
@@ -17,6 +19,7 @@ logger = logging.getLogger(PROG)
 
 
 def main(input: str, output: str) -> None:
+    """Extract the data from the archive and write to a data directory."""
     logger.debug(f'Creating "{output}"...')
     p = Path(output)
     p.mkdir()
