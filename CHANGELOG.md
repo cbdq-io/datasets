@@ -1,6 +1,13 @@
 # Changelog
 
 
+## Unreleased
+
+### Features
+
+* Postcode data (NSPL_NOV_2025) [Ben Dalling]
+
+
 ## 1.6.0 (2025-11-29)
 
 ### Features
