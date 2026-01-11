@@ -1,6 +1,51 @@
 # Changelog
 
 
+## Unreleased
+
+### Build
+
+* Bump marshmallow from 3.26.1 to 3.26.2. [dependabot[bot]]
+
+  Bumps [marshmallow](https://github.com/marshmallow-code/marshmallow) from 3.26.1 to 3.26.2.
+  - [Changelog](https://github.com/marshmallow-code/marshmallow/blob/3.26.2/CHANGELOG.rst)
+  - [Commits](https://github.com/marshmallow-code/marshmallow/compare/3.26.1...3.26.2)
+
+  ---
+  updated-dependencies:
+  - dependency-name: marshmallow
+    dependency-version: 3.26.2
+    dependency-type: direct:production
+  ...
+
+* Bump aiohttp from 3.12.14 to 3.13.3. [dependabot[bot]]
+
+  ---
+  updated-dependencies:
+  - dependency-name: aiohttp
+    dependency-version: 3.13.3
+    dependency-type: direct:production
+  ...
+
+* Bump urllib3 from 2.5.0 to 2.6.3. [dependabot[bot]]
+
+  Bumps [urllib3](https://github.com/urllib3/urllib3) from 2.5.0 to 2.6.3.
+  - [Release notes](https://github.com/urllib3/urllib3/releases)
+  - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+  - [Commits](https://github.com/urllib3/urllib3/compare/2.5.0...2.6.3)
+
+  ---
+  updated-dependencies:
+  - dependency-name: urllib3
+    dependency-version: 2.6.3
+    dependency-type: direct:production
+  ...
+
+### Continuous Integration
+
+* Remove football-data feed. [Ben Dalling]
+
+
 ## 1.6.0 (2025-11-29)
 
 ### Features
