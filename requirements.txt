@@ -219,7 +219,7 @@ tinycss2==1.4.0
 tokenize_rt==6.2.0
 tomli==2.2.1
 toolz==1.0.0
-tornado==6.5.1
+tornado==6.5.5
 tqdm==4.67.1
 traitlets==5.14.3
 types-python-dateutil==2.9.0.20241206
