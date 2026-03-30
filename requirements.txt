@@ -171,7 +171,7 @@ pydantic==2.10.6
 pydantic_core==2.27.2
 pydocstyle==6.3.0
 pyflakes==3.2.0
-Pygments==2.19.1
+Pygments==2.20.0
 PyJWT==2.10.1
 pyparsing==3.2.1
 pystache==0.6.8
