@@ -5,6 +5,19 @@
 
 ### Build
 
+* Bump azure-core from 1.32.0 to 1.38.0. [dependabot[bot]]
+
+  Bumps [azure-core](https://github.com/Azure/azure-sdk-for-python) from 1.32.0 to 1.38.0.
+  - [Release notes](https://github.com/Azure/azure-sdk-for-python/releases)
+  - [Commits](https://github.com/Azure/azure-sdk-for-python/compare/azure-core_1.32.0...azure-core_1.38.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: azure-core
+    dependency-version: 1.38.0
+    dependency-type: direct:production
+  ...
+
 * Bump marshmallow from 3.26.1 to 3.26.2. [dependabot[bot]]
 
   Bumps [marshmallow](https://github.com/marshmallow-code/marshmallow) from 3.26.1 to 3.26.2.
