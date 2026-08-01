@@ -5,6 +5,19 @@
 
 ### Build
 
+* Bump tornado from 6.5.1 to 6.5.5. [dependabot[bot]]
+
+  Bumps [tornado](https://github.com/tornadoweb/tornado) from 6.5.1 to 6.5.5.
+  - [Changelog](https://github.com/tornadoweb/tornado/blob/master/docs/releases.rst)
+  - [Commits](https://github.com/tornadoweb/tornado/compare/v6.5.1...v6.5.5)
+
+  ---
+  updated-dependencies:
+  - dependency-name: tornado
+    dependency-version: 6.5.5
+    dependency-type: direct:production
+  ...
+
 * Bump nbconvert from 7.16.6 to 7.17.0. [dependabot[bot]]
 
   Bumps [nbconvert](https://github.com/jupyter/nbconvert) from 7.16.6 to 7.17.0.
