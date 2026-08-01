@@ -5,6 +5,19 @@
 
 ### Build
 
+* Bump protobuf from 5.29.5 to 5.29.6. [dependabot[bot]]
+
+  Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 5.29.5 to 5.29.6.
+  - [Release notes](https://github.com/protocolbuffers/protobuf/releases)
+  - [Commits](https://github.com/protocolbuffers/protobuf/commits)
+
+  ---
+  updated-dependencies:
+  - dependency-name: protobuf
+    dependency-version: 5.29.6
+    dependency-type: direct:production
+  ...
+
 * Bump azure-core from 1.32.0 to 1.38.0. [dependabot[bot]]
 
   Bumps [azure-core](https://github.com/Azure/azure-sdk-for-python) from 1.32.0 to 1.38.0.
