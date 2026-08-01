@@ -5,6 +5,19 @@
 
 ### Build
 
+* Bump cryptography from 44.0.2 to 46.0.6. [dependabot[bot]]
+
+  Bumps [cryptography](https://github.com/pyca/cryptography) from 44.0.2 to 46.0.6.
+  - [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
+  - [Commits](https://github.com/pyca/cryptography/compare/44.0.2...46.0.6)
+
+  ---
+  updated-dependencies:
+  - dependency-name: cryptography
+    dependency-version: 46.0.6
+    dependency-type: direct:production
+  ...
+
 * Bump requests from 2.32.4 to 2.33.0. [dependabot[bot]]
 
   Bumps [requests](https://github.com/psf/requests) from 2.32.4 to 2.33.0.
