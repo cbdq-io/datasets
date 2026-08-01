@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump nbconvert from 7.16.6 to 7.17.0. [dependabot[bot]]
+
+  Bumps [nbconvert](https://github.com/jupyter/nbconvert) from 7.16.6 to 7.17.0.
+  - [Release notes](https://github.com/jupyter/nbconvert/releases)
+  - [Changelog](https://github.com/jupyter/nbconvert/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/jupyter/nbconvert/compare/v7.16.6...v7.17.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: nbconvert
+    dependency-version: 7.17.0
+    dependency-type: direct:production
+  ...
+
 * Bump protobuf from 5.29.5 to 5.29.6. [dependabot[bot]]
 
   Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 5.29.5 to 5.29.6.
