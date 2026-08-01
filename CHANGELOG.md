@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump requests from 2.32.4 to 2.33.0. [dependabot[bot]]
+
+  Bumps [requests](https://github.com/psf/requests) from 2.32.4 to 2.33.0.
+  - [Release notes](https://github.com/psf/requests/releases)
+  - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
+  - [Commits](https://github.com/psf/requests/compare/v2.32.4...v2.33.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: requests
+    dependency-version: 2.33.0
+    dependency-type: direct:production
+  ...
+
 * Bump tornado from 6.5.1 to 6.5.5. [dependabot[bot]]
 
   Bumps [tornado](https://github.com/tornadoweb/tornado) from 6.5.1 to 6.5.5.
