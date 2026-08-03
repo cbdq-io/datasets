@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump jupyterlab from 4.4.8 to 4.5.10. [dependabot[bot]]
+
+  Bumps [jupyterlab](https://github.com/jupyterlab/jupyterlab) from 4.4.8 to 4.5.10.
+  - [Release notes](https://github.com/jupyterlab/jupyterlab/releases)
+  - [Changelog](https://github.com/jupyterlab/jupyterlab/blob/main/RELEASE.md)
+  - [Commits](https://github.com/jupyterlab/jupyterlab/compare/@jupyterlab/lsp@4.4.8...@jupyterlab/lsp@4.5.10)
+
+  ---
+  updated-dependencies:
+  - dependency-name: jupyterlab
+    dependency-version: 4.5.10
+    dependency-type: direct:production
+  ...
+
 * Bump setuptools from 78.1.1 to 83.0.0. [dependabot[bot]]
 
   Bumps [setuptools](https://github.com/pypa/setuptools) from 78.1.1 to 83.0.0.
