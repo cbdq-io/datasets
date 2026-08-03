@@ -5,6 +5,19 @@
 
 ### Build
 
+* Bump cryptography from 46.0.6 to 48.0.1. [dependabot[bot]]
+
+  Bumps [cryptography](https://github.com/pyca/cryptography) from 46.0.6 to 48.0.1.
+  - [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)
+  - [Commits](https://github.com/pyca/cryptography/compare/46.0.6...48.0.1)
+
+  ---
+  updated-dependencies:
+  - dependency-name: cryptography
+    dependency-version: 48.0.1
+    dependency-type: direct:production
+  ...
+
 * Bump pyjwt from 2.10.1 to 2.13.0. [dependabot[bot]]
 
   Bumps [pyjwt](https://github.com/jpadilla/pyjwt) from 2.10.1 to 2.13.0.
