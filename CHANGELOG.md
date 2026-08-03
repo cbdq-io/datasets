@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump mistune from 3.1.3 to 3.3.0. [dependabot[bot]]
+
+  Bumps [mistune](https://github.com/lepture/mistune) from 3.1.3 to 3.3.0.
+  - [Release notes](https://github.com/lepture/mistune/releases)
+  - [Changelog](https://github.com/lepture/mistune/blob/main/docs/changes.rst)
+  - [Commits](https://github.com/lepture/mistune/compare/v3.1.3...v3.3.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: mistune
+    dependency-version: 3.3.0
+    dependency-type: direct:production
+  ...
+
 * Bump aiohttp from 3.13.3 to 3.13.4. [dependabot[bot]]
 
   ---
