@@ -5,6 +5,15 @@
 
 ### Build
 
+* Bump aiohttp from 3.13.3 to 3.13.4. [dependabot[bot]]
+
+  ---
+  updated-dependencies:
+  - dependency-name: aiohttp
+    dependency-version: 3.13.4
+    dependency-type: direct:production
+  ...
+
 * Bump pygments from 2.19.1 to 2.20.0. [dependabot[bot]]
 
   Bumps [pygments](https://github.com/pygments/pygments) from 2.19.1 to 2.20.0.
