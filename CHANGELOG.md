@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump pyjwt from 2.10.1 to 2.13.0. [dependabot[bot]]
+
+  Bumps [pyjwt](https://github.com/jpadilla/pyjwt) from 2.10.1 to 2.13.0.
+  - [Release notes](https://github.com/jpadilla/pyjwt/releases)
+  - [Changelog](https://github.com/jpadilla/pyjwt/blob/master/CHANGELOG.rst)
+  - [Commits](https://github.com/jpadilla/pyjwt/compare/2.10.1...2.13.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: pyjwt
+    dependency-version: 2.13.0
+    dependency-type: direct:production
+  ...
+
 * Bump jupyterlab from 4.4.8 to 4.5.10. [dependabot[bot]]
 
   Bumps [jupyterlab](https://github.com/jupyterlab/jupyterlab) from 4.4.8 to 4.5.10.
