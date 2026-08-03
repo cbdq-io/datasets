@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump pyasn1 from 0.6.1 to 0.6.4. [dependabot[bot]]
+
+  Bumps [pyasn1](https://github.com/pyasn1/pyasn1) from 0.6.1 to 0.6.4.
+  - [Release notes](https://github.com/pyasn1/pyasn1/releases)
+  - [Changelog](https://github.com/pyasn1/pyasn1/blob/main/CHANGES.rst)
+  - [Commits](https://github.com/pyasn1/pyasn1/compare/v0.6.1...v0.6.4)
+
+  ---
+  updated-dependencies:
+  - dependency-name: pyasn1
+    dependency-version: 0.6.4
+    dependency-type: direct:production
+  ...
+
 * Bump mistune from 3.1.3 to 3.3.0. [dependabot[bot]]
 
   Bumps [mistune](https://github.com/lepture/mistune) from 3.1.3 to 3.3.0.
