@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump pygments from 2.19.1 to 2.20.0. [dependabot[bot]]
+
+  Bumps [pygments](https://github.com/pygments/pygments) from 2.19.1 to 2.20.0.
+  - [Release notes](https://github.com/pygments/pygments/releases)
+  - [Changelog](https://github.com/pygments/pygments/blob/master/CHANGES)
+  - [Commits](https://github.com/pygments/pygments/compare/2.19.1...2.20.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: pygments
+    dependency-version: 2.20.0
+    dependency-type: direct:production
+  ...
+
 * Bump cryptography from 44.0.2 to 46.0.6. [dependabot[bot]]
 
   Bumps [cryptography](https://github.com/pyca/cryptography) from 44.0.2 to 46.0.6.
