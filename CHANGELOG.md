@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump setuptools from 78.1.1 to 83.0.0. [dependabot[bot]]
+
+  Bumps [setuptools](https://github.com/pypa/setuptools) from 78.1.1 to 83.0.0.
+  - [Release notes](https://github.com/pypa/setuptools/releases)
+  - [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)
+  - [Commits](https://github.com/pypa/setuptools/compare/v78.1.1...v83.0.0)
+
+  ---
+  updated-dependencies:
+  - dependency-name: setuptools
+    dependency-version: 83.0.0
+    dependency-type: direct:production
+  ...
+
 * Bump pyasn1 from 0.6.1 to 0.6.4. [dependabot[bot]]
 
   Bumps [pyasn1](https://github.com/pyasn1/pyasn1) from 0.6.1 to 0.6.4.
