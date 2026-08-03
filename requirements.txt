@@ -23,7 +23,7 @@ babel==2.17.0
 backoff==2.2.1
 bandit==1.8.3
 beautifulsoup4==4.13.3
-bleach==6.2.0
+bleach==6.4.0
 botocore==1.37.1
 cachetools==5.5.2
 certifi==2025.1.31
