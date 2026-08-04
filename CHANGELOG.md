@@ -9,6 +9,20 @@
 
 ### Build
 
+* Bump actions/setup-python from 6 to 7. [dependabot[bot]]
+
+  Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6 to 7.
+  - [Release notes](https://github.com/actions/setup-python/releases)
+  - [Commits](https://github.com/actions/setup-python/compare/v6...v7)
+
+  ---
+  updated-dependencies:
+  - dependency-name: actions/setup-python
+    dependency-version: '7'
+    dependency-type: direct:production
+    update-type: version-update:semver-major
+  ...
+
 * Bump msgpack from 1.1.0 to 1.2.1. [dependabot[bot]]
 
   Bumps [msgpack](https://github.com/msgpack/msgpack-python) from 1.1.0 to 1.2.1.
