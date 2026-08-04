@@ -5,6 +5,19 @@
 
 ### Build
 
+* Bump soupsieve from 2.6 to 2.8.4. [dependabot[bot]]
+
+  Bumps [soupsieve](https://github.com/facelessuser/soupsieve) from 2.6 to 2.8.4.
+  - [Release notes](https://github.com/facelessuser/soupsieve/releases)
+  - [Commits](https://github.com/facelessuser/soupsieve/compare/2.6...2.8.4)
+
+  ---
+  updated-dependencies:
+  - dependency-name: soupsieve
+    dependency-version: 2.8.4
+    dependency-type: direct:production
+  ...
+
 * Bump cryptography from 46.0.6 to 48.0.1. [dependabot[bot]]
 
   Bumps [cryptography](https://github.com/pyca/cryptography) from 46.0.6 to 48.0.1.
