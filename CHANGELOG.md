@@ -5,6 +5,20 @@
 
 ### Build
 
+* Bump msgpack from 1.1.0 to 1.2.1. [dependabot[bot]]
+
+  Bumps [msgpack](https://github.com/msgpack/msgpack-python) from 1.1.0 to 1.2.1.
+  - [Release notes](https://github.com/msgpack/msgpack-python/releases)
+  - [Changelog](https://github.com/msgpack/msgpack-python/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/msgpack/msgpack-python/compare/v1.1.0...v1.2.1)
+
+  ---
+  updated-dependencies:
+  - dependency-name: msgpack
+    dependency-version: 1.2.1
+    dependency-type: direct:production
+  ...
+
 * Bump soupsieve from 2.6 to 2.8.4. [dependabot[bot]]
 
   Bumps [soupsieve](https://github.com/facelessuser/soupsieve) from 2.6 to 2.8.4.
